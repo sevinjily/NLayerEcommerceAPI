@@ -1,0 +1,38 @@
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\bin\Debug\net8.0\Core.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Core\obj\Debug\net8.0\ref\Core.dll

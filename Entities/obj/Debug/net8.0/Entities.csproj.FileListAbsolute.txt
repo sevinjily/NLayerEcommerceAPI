@@ -1,0 +1,47 @@
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\bin\Debug\net8.0\Entities.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\bin\Debug\net8.0\Core.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\bin\Debug\net8.0\Core.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.csproj.Up2Date
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\bin\Debug\net8.0\Entities.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\bin\Debug\net8.0\Core.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\bin\Debug\net8.0\Core.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.csproj.CopyComplete
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\bin\Debug\net8.0\Entities.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\bin\Debug\net8.0\Core.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\bin\Debug\net8.0\Core.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.csproj.Up2Date
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\Entities\obj\Debug\net8.0\ref\Entities.dll

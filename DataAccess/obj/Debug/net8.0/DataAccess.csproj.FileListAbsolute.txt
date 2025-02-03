@@ -1,0 +1,59 @@
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\Core.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\Entities.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\Core.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\bin\Debug\net8.0\Entities.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Asus\source\repos\ECommerceArchAPI\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\Core.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\Entities.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\Core.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\bin\Debug\net8.0\Entities.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CopyComplete
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\MSI\Desktop\for linkedin\ArchiECommerce\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\Core.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\Entities.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\Core.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\bin\Debug\net8.0\Entities.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
