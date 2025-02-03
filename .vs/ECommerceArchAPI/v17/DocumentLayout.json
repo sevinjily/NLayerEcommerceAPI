@@ -1,0 +1,1050 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\middlerwares\\localizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\middlerwares\\localizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\middlerwares\\globalhandlingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\middlerwares\\globalhandlingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\subcategorydtos\\updatesubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\subcategorydtos\\updatesubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\subcategorydtos\\getsubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\subcategorydtos\\getsubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\subcategorydtos\\addsubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\subcategorydtos\\addsubcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\categorydtos\\addcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\addcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\authdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\authdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\authdtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\authdtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\productsubcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\productsubcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\productlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\productlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\categorylanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\categorylanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\common\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\common\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\concrete\\entityframework\\efsubcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efsubcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\abstract\\isubcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\isubcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\security\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\security\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\concrete\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\concrete\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\concrete\\succesresults\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\concrete\\succesresults\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\concrete\\succesresults\\successdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\concrete\\succesresults\\successdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\concrete\\errorresults\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\concrete\\errorresults\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\concrete\\errorresults\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\concrete\\errorresults\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\abstract\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\abstract\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\utilities\\results\\abstract\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\abstract\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\entities\\concrete\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\entities\\concrete\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\dataaccess\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\dataaccess\\entityframework\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\validations\\fluentvalidation\\registervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\validations\\fluentvalidation\\registervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\validations\\fluentvalidation\\customlanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\validations\\fluentvalidation\\customlanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\messages\\authmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\messages\\authmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\concrete\\subcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\concrete\\subcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:35:54.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:59:49.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\SubCategoryController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\SubCategoryController.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\SubCategoryController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\SubCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:00:03.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalHandlingException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Middlerwares\\GlobalHandlingException.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Middlerwares\\GlobalHandlingException.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Middlerwares\\GlobalHandlingException.cs",
+              "RelativeToolTip": "WebAPI\\Middlerwares\\GlobalHandlingException.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:36:05.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocalizationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Middlerwares\\LocalizationMiddleware.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Middlerwares\\LocalizationMiddleware.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Middlerwares\\LocalizationMiddleware.cs",
+              "RelativeToolTip": "WebAPI\\Middlerwares\\LocalizationMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:36:46.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:27:44.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateSubCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\SubCategoryDTOs\\UpdateSubCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\SubCategoryDTOs\\UpdateSubCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\SubCategoryDTOs\\UpdateSubCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\SubCategoryDTOs\\UpdateSubCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:05:00.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetSubCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\SubCategoryDTOs\\GetSubCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\SubCategoryDTOs\\GetSubCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\SubCategoryDTOs\\GetSubCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\SubCategoryDTOs\\GetSubCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:57.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddSubCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\SubCategoryDTOs\\AddSubCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\SubCategoryDTOs\\AddSubCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\SubCategoryDTOs\\AddSubCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\SubCategoryDTOs\\AddSubCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:54.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:50.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:47.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:44.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\AuthDTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\AuthDTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\AuthDTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\AuthDTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:41.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SubCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\SubCategory.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\SubCategory.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\SubCategory.cs",
+              "RelativeToolTip": "Entities\\Concrete\\SubCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:30.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Size.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Size.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Size.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Size.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Size.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:26.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductSubCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductSubCategory.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\ProductSubCategory.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductSubCategory.cs",
+              "RelativeToolTip": "Entities\\Concrete\\ProductSubCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:23.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductSize.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\ProductSize.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductSize.cs",
+              "RelativeToolTip": "Entities\\Concrete\\ProductSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:20.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductLanguage.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductLanguage.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\ProductLanguage.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductLanguage.cs",
+              "RelativeToolTip": "Entities\\Concrete\\ProductLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:17.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\AuthDTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\AuthDTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\AuthDTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\AuthDTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:08:32.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RefreshTokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:43:34.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductColor.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\ProductColor.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductColor.cs",
+              "RelativeToolTip": "Entities\\Concrete\\ProductColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:14.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Product.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:09.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Color.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Color.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Color.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:05.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryLanguage.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\CategoryLanguage.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\CategoryLanguage.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\CategoryLanguage.cs",
+              "RelativeToolTip": "Entities\\Concrete\\CategoryLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:04:03.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Category.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Category.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:58.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Common\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Common\\User.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Common\\User.cs",
+              "RelativeToolTip": "Entities\\Common\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:54.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:51.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EFSubCategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFSubCategoryDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFSubCategoryDAL.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFSubCategoryDAL.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFSubCategoryDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:43.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EFCategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:40.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:37.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ISubCategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Abstract\\ISubCategoryDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ISubCategoryDAL.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Abstract\\ISubCategoryDAL.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ISubCategoryDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:31.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Abstract\\ICategoryDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICategoryDAL.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Abstract\\ICategoryDAL.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICategoryDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:28.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\Result.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Concrete\\Result.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\Result.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Concrete\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:09.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\DataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Concrete\\DataResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\DataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Concrete\\DataResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:05.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SuccessResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:03:01.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SuccessDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessDataResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Concrete\\SuccesResults\\SuccessDataResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:57.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ErrorResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:52.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:24:51.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwDIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:00:36.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ErrorDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:47.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Abstract\\IResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Abstract\\IResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Abstract\\IResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Abstract\\IResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:41.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Abstract\\IDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Abstract\\IDataResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Results\\Abstract\\IDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Abstract\\IDataResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:38.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\IEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\IEntity.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\IEntity.cs",
+              "RelativeToolTip": "Core\\Entities\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:32.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\AppRole.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\AppRole.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\AppRole.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:10.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DependencyResolver\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Core\\DependencyResolver\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DependencyResolver\\ServiceRegistration.cs",
+              "RelativeToolTip": "Core\\DependencyResolver\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:05.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DataAccess\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DataAccess\\IRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:02:00.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EFRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:01:57.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SubCategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\SubCategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\SubCategoryManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\SubCategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\SubCategoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:00:25.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\AppUser.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:11:26.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\Token.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\Token.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\Token.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:58:49.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:00:22.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Messages\\AuthMessage.cs",
+              "RelativeDocumentMoniker": "Business\\Messages\\AuthMessage.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Messages\\AuthMessage.cs",
+              "RelativeToolTip": "Business\\Messages\\AuthMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:11:30.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\DependencyResolver\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolver\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\DependencyResolver\\ServiceRegistration.cs",
+              "RelativeToolTip": "Business\\DependencyResolver\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:51:41.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CustomLanguageManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Validations\\FluentValidation\\CustomLanguageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Validations\\FluentValidation\\CustomLanguageManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Validations\\FluentValidation\\CustomLanguageManager.cs",
+              "RelativeToolTip": "Business\\Validations\\FluentValidation\\CustomLanguageManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:25:32.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RegisterValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Validations\\FluentValidation\\RegisterValidation.cs",
+              "RelativeDocumentMoniker": "Business\\Validations\\FluentValidation\\RegisterValidation.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Validations\\FluentValidation\\RegisterValidation.cs",
+              "RelativeToolTip": "Business\\Validations\\FluentValidation\\RegisterValidation.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:18:18.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwEEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:20:45.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:34:51.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Business.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Business.csproj",
+              "RelativeDocumentMoniker": "Business\\Business.csproj",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Business.csproj",
+              "RelativeToolTip": "Business\\Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-24T18:50:13.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T17:22:45.241Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1092,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
