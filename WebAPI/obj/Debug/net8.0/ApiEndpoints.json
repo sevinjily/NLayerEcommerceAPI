@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "WebAPI.Controllers.AuthController",
-    "Method": "Get",
-    "RelativePath": "api/Auth/Get",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",
@@ -173,6 +163,96 @@
       {
         "Name": "model",
         "Type": "Entities.DTOs.CategoryDTOs.UpdateCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "AssignRoleToUser",
+    "RelativePath": "api/Role/AssignRoleToUser/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "Create",
+    "RelativePath": "api/Role/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createRoleDTO",
+        "Type": "Entities.DTOs.RoleDTOs.CreateRoleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/Role/Delete/{roleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "RemoveRoleFromUser",
+    "RelativePath": "api/Role/RemoveRoleFromUser/{userId})",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/Role/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateRoleDTO",
+        "Type": "Entities.DTOs.RoleDTOs.UpdateRoleDTO",
         "IsRequired": true
       }
     ],

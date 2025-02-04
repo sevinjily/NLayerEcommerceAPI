@@ -17,6 +17,7 @@ namespace WebAPI.Controllers
             _authService = authService;
         }
         [HttpPost("[action]")]
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
             var result=await _authService.RegisterAsync(model);             
@@ -52,7 +53,6 @@ namespace WebAPI.Controllers
                 return Ok(result);
             return BadRequest(result);
         }
-
-      
+       
     }
 }
