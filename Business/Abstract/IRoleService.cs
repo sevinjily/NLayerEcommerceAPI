@@ -1,11 +1,5 @@
 ﻿using Core.Utilities.Results.Abstract;
-using Entities.Common;
 using Entities.DTOs.RoleDTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
@@ -16,5 +10,7 @@ namespace Business.Abstract
         Task<IResult> UpdateRole(UpdateRoleDTO model);
         Task<IResult> AssignRoleToUserAsync(string userId, string role);
         Task<IResult> RemoveRoleFromUser(string userId, string roleId);
+        Task<IDataResult<List<GetRoleDTO>>> GetAllRoles();
+        Task<IDataResult<GetRoleDTO>> GetRoleById(string roleId);
     }
 }

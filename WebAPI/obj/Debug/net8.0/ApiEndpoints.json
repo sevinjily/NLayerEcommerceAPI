@@ -223,6 +223,32 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Role/GetAllRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Role/GetRoleById/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleController",
     "Method": "RemoveRoleFromUser",
     "RelativePath": "api/Role/RemoveRoleFromUser/{userId})",
     "HttpMethod": "POST",

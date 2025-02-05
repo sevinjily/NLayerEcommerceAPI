@@ -23,7 +23,7 @@ namespace Business.Concrete
             _categoryDAL.DeleteCategory(id);
         }
 
-        public List<GetCategoryDTO> Get(Guid id)
+        public List<GetCategoryDTO> GetAllLanguages(Guid id)
         {
            var result= _categoryDAL.GetAllLanguages(id);
             return result;

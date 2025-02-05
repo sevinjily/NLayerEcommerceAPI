@@ -1,4 +1,5 @@
 ﻿using Core.Entities.Concrete;
+using Entities.Common;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -22,7 +23,46 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<Size> Sizes { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
-
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            var datas = ChangeTracker.Entries<BaseEntity>();
+            foreach (var data in datas)
+            {
+                switch (data.State)
+                {
+                    case EntityState.Added:
+                        data.Entity.CreatedDate = DateTime.Now;
+                        break;
+                    case EntityState.Modified:
+                        data.Entity.UpdatedDate = DateTime.Now;
+                        break;
+                    default:
+                        data.Entity.CreatedDate = DateTime.Now;
+                        break;
+                }
+            }
+                return base.SaveChangesAsync(cancellationToken);
+        }
+        public override int SaveChanges()
+        {
+            var datas = ChangeTracker.Entries<BaseEntity>();
+            foreach (var data in datas)
+            {
+                switch (data.State)
+                {
+                    case EntityState.Added:
+                        data.Entity.CreatedDate = DateTime.Now;
+                        break;
+                    case EntityState.Modified:
+                        data.Entity.UpdatedDate = DateTime.Now;
+                        break;
+                    default:
+                        data.Entity.CreatedDate = DateTime.Now;
+                        break;
+                }
+            }
+            return base.SaveChanges();
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<ProductSize>()

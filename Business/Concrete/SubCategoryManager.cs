@@ -28,7 +28,6 @@ namespace Business.Concrete
                 _subCategoryDAL.Add(new()
                 {
                     Name = model.Name,
-                    CreatedDate = DateTime.Now,
                     CategoryId = model.CategoryId,
                 }
                     );
@@ -86,7 +85,6 @@ namespace Business.Concrete
                 {
 
                 findSubCategory.Name = model.Name;
-                findSubCategory.UpdatedDate = DateTime.Now;
 
                 _subCategoryDAL.Update(findSubCategory);
                 return new SuccessResult("Ugurla yerine yetirildi",HttpStatusCode.OK);
