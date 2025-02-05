@@ -2,6 +2,7 @@
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs.CategoryDTOs;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
@@ -21,7 +22,6 @@ namespace DataAccess.Concrete.EntityFramework
                 {
                     CategoryName = models[i].Name,
                     LangCode = models[i].LangCode,
-                    CreatedDate = DateTime.Now,
                     CategoryId = category.Id
                 };
                 context.CategoryLanguages.Add(categoryLanguage);
@@ -32,7 +32,7 @@ namespace DataAccess.Concrete.EntityFramework
         public void DeleteCategory(Guid id)
         {
             using var context= new AppDbContext();
-            var findCategory=context.Categories.FirstOrDefault(x=> x.Id == id);
+            var findCategory=context.Categories.AsNoTracking().FirstOrDefault(x=> x.Id == id);
             if (findCategory != null)
             {
                 var findLanguages = context.CategoryLanguages.Where(y => y.CategoryId == id);
@@ -46,7 +46,7 @@ namespace DataAccess.Concrete.EntityFramework
         public List<GetCategoryDTO> GetAllLanguages(Guid id)
         {
          using var context=new AppDbContext();
-            var findCategories=context.CategoryLanguages.Where(x=>x.CategoryId == id).ToList();
+            var findCategories=context.CategoryLanguages.AsNoTracking().Where(x=>x.CategoryId == id).ToList();
             List<GetCategoryDTO> categoriesDTO = new List<GetCategoryDTO>();
             for (int i = 0; i < findCategories.Count; i++)
             {
@@ -65,7 +65,7 @@ namespace DataAccess.Concrete.EntityFramework
         public GetCategoryDTO GetCategoryByLang(Guid id, string LangCode)
         {
            using var context=new AppDbContext();
-            var category=context.CategoryLanguages.FirstOrDefault(a=>a.CategoryId == id && a.LangCode==LangCode);
+            var category=context.CategoryLanguages.AsNoTracking().FirstOrDefault(a=>a.CategoryId == id && a.LangCode==LangCode);
            
                 GetCategoryDTO getCategoryDTO = new()
                 {
@@ -91,8 +91,7 @@ namespace DataAccess.Concrete.EntityFramework
                 {
                     CategoryName = models[i].Name,
                     LangCode = models[i].LangCode,
-                    CreatedDate =DateTime.Now,
-                    UpdatedDate =DateTime.Now,
+                    //CreatedDate =DateTime.Now,
                     CategoryId = id
                 };
                 await context.CategoryLanguages.AddAsync(newCategoryLanguage);  

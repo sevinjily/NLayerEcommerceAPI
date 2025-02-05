@@ -50,6 +50,21 @@ namespace Business.Concrete
             return new SuccessResult(HttpStatusCode.OK);
         }
 
+        public async Task<IDataResult<List<GetRoleDTO>>> GetAllRoles()
+        {
+            var roles= _roleManager.Roles.Select(x => new GetRoleDTO {RoleId=x.Id, RoleName = x.Name }).ToList();
+            return new ErrorDataResult<List<GetRoleDTO>>(roles, HttpStatusCode.OK);
+        }
+
+        public async Task<IDataResult<GetRoleDTO>> GetRoleById(string roleId)
+        {
+            var findRole = await _roleManager.FindByIdAsync(roleId);
+            if (findRole is null)
+                return new ErrorDataResult<GetRoleDTO>("Role not found", HttpStatusCode.NotFound);
+            return new SuccessDataResult<GetRoleDTO>(new 
+                GetRoleDTO { RoleId = findRole.Id, RoleName = findRole.Name }, HttpStatusCode.OK);
+        }
+
         public async Task<IResult> RemoveRoleFromUser(string userId, string roleId)
         {
             var findUser = await _userManager.FindByIdAsync(userId);

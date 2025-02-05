@@ -55,7 +55,7 @@ namespace WebAPI.Controllers
         public IActionResult GetAll(Guid id)
         {
          
-            var result=_categoryService.Get(id);
+            var result=_categoryService.GetAllLanguages(id);
             return Ok(result);
         }
     }

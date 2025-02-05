@@ -56,6 +56,18 @@ namespace WebAPI.Controllers
 
             return BadRequest(result);
         }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetAllRoles()
+        {
+            var result = await _roleService.GetAllRoles();
+            return Ok(result);
+        }
+        [HttpGet("[action]/{roleId}")]
+        public async Task<IActionResult> GetRoleById(string roleId)
+        {
+            var result = await _roleService.GetRoleById(roleId);
+            return Ok(result);
+        }
 
     }
 }
