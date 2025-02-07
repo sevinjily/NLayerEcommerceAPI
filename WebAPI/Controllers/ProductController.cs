@@ -1,4 +1,5 @@
-﻿using Entities.DTOs.ProductDTOs;
+﻿using Business.Abstract;
+using Entities.DTOs.ProductDTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,10 +9,18 @@ namespace WebAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult AddProduct(AddProductDTO product)
+        private readonly IProductService _productService;
+
+        public ProductController(IProductService productService)
         {
-            return Ok();
+            _productService = productService;
         }
+        [HttpPost]
+        public async Task<IActionResult> Create(AddProductDTO product)
+        {
+            var result=await _productService.CreateAsync(product);
+            return Ok(result);
+
+            }
     }
 }

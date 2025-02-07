@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entities.DTOs.ProductDTOs
 {
-    public class AddSpecificationDTO
+    public class AddSpecificationLanguageDTO
     {
-        public List<AddSpecificationLanguageDTO> AddSpecificationLanguageDTOs { get; set; }
+        public string Key { get; set; }
+        public string Value { get; set; }
+        public string LangCode { get; set; }
     }
 }

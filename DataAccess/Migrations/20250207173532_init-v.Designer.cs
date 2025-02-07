@@ -4,6 +4,7 @@ using DataAccess.Concrete.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250207173532_init-v")]
+    partial class initv
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -350,68 +353,6 @@ namespace DataAccess.Migrations
                     b.ToTable("Sizes");
                 });
 
-            modelBuilder.Entity("Entities.Concrete.Specification", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<Guid>("ProductId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Specifications");
-                });
-
-            modelBuilder.Entity("Entities.Concrete.SpecificationLanguage", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Key")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LangCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("SpecificationId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Value")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SpecificationId");
-
-                    b.ToTable("SpecificationLanguages");
-                });
-
             modelBuilder.Entity("Entities.Concrete.SubCategory", b =>
                 {
                     b.Property<Guid>("Id")
@@ -615,28 +556,6 @@ namespace DataAccess.Migrations
                     b.Navigation("SubCategory");
                 });
 
-            modelBuilder.Entity("Entities.Concrete.Specification", b =>
-                {
-                    b.HasOne("Entities.Concrete.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Entities.Concrete.SpecificationLanguage", b =>
-                {
-                    b.HasOne("Entities.Concrete.Specification", "Specification")
-                        .WithMany("SpecificationLanguages")
-                        .HasForeignKey("SpecificationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Specification");
-                });
-
             modelBuilder.Entity("Entities.Concrete.SubCategory", b =>
                 {
                     b.HasOne("Entities.Concrete.Category", "Category")
@@ -669,11 +588,6 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("Entities.Concrete.Size", b =>
                 {
                     b.Navigation("ProductSizes");
-                });
-
-            modelBuilder.Entity("Entities.Concrete.Specification", b =>
-                {
-                    b.Navigation("SpecificationLanguages");
                 });
 
             modelBuilder.Entity("Entities.Concrete.SubCategory", b =>
