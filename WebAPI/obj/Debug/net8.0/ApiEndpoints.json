@@ -170,7 +170,7 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.ProductController",
-    "Method": "AddProduct",
+    "Method": "Create",
     "RelativePath": "api/Product",
     "HttpMethod": "POST",
     "IsController": true,

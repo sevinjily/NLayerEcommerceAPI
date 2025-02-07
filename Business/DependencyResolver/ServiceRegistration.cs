@@ -20,8 +20,12 @@ namespace Business.DependencyResolver
 
             services.AddScoped<ISubCategoryService,SubCategoryManager>();
             services.AddScoped<ISubCategoryDAL, EFSubCategoryDAL>();
+
             services.AddScoped<IAuthService,AuthManager>();
             services.AddScoped<IRoleService, RoleManager>();
+
+            services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<IProductDAL,EFProductDAL>();
 
             ValidatorOptions.Global.LanguageManager = new CustomLanguageManager();
 

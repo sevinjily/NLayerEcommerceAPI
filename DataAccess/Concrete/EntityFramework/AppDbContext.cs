@@ -19,6 +19,8 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<ProductLanguage> ProductLanguages { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<ProductSubCategory> ProductSubCategories { get; set; }
+        public DbSet<Specification> Specifications { get; set; }
+        public DbSet<SpecificationLanguage> SpecificationLanguages { get; set; }
         public DbSet<Color> Colors { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<Size> Sizes { get; set; }
