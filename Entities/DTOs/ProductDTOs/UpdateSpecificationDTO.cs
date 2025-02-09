@@ -8,7 +8,7 @@ namespace Entities.DTOs.ProductDTOs
 {
     public class UpdateSpecificationDTO
     {
-        public List<UpdateSpecificationLanguageDTO> AddSpecificationLanguageDTOs { get; set; }
+        public List<UpdateSpecificationLanguageDTO> UpdateSpecificationLanguageDTOs { get; set; }
 
     }
 }

@@ -82,6 +82,42 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
+        public GetProductDTO GetProductAsync(Guid id, string LangCode)
+        {
+            using var context = new AppDbContext();
+            var data = context.Products
+                .Include(x => x.ProductLanguages)
+                .Include(x => x.ProductSubCategories)
+                .ThenInclude(x => x.SubCategory)
+                .Include(x => x.Specifications)
+                .ThenInclude(x => x.SpecificationLanguages)
+                 .FirstOrDefault(x => x.Id == id);
+            if (data != null)
+            {
+            GetProductDTO getProductDTO = new()
+            {
+                LangCode = data.ProductLanguages.FirstOrDefault(x => x.LangCode == LangCode).LangCode,
+                Description = data.ProductLanguages.FirstOrDefault(x => x.LangCode == LangCode).Description,
+                ProductName = data.ProductLanguages.FirstOrDefault(x => x.LangCode == LangCode).ProductName,
+                Discount = data.Discount,
+                IsStock = data.IsStock,
+                Price = data.Price,
+                Review = data.Review,
+                SubCategoryName = data.ProductSubCategories
+                .Where(x => x.ProductId == data.Id)
+                .Select(x => x.SubCategory.Name)
+                .ToList(),
+                GetSpecificationDTOs = data.Specifications.Select(x => new GetSpecificationDTO
+                {
+                    Key = x.SpecificationLanguages.FirstOrDefault(x => x.LangCode == LangCode).Key,
+                    Value = x.SpecificationLanguages.FirstOrDefault(x => x.LangCode == LangCode).Value
+                }).ToList()
+            };
+                return getProductDTO;
+            }
+                return null;
+        }
+
         public async Task UpdateProductAsync(Guid id, UpdateProductDTO model)   
         {
            await using var context= new AppDbContext();
@@ -98,9 +134,9 @@ namespace DataAccess.Concrete.EntityFramework
             findData.Review = model.Review;
             context.Update(findData);
 
-            context.Remove(findData.Specifications);
-            context.Remove(findData.ProductLanguages);
-            context.Remove(findData.ProductSubCategories);
+            context.RemoveRange(findData.Specifications);
+            context.RemoveRange(findData.ProductLanguages);
+            context.RemoveRange(findData.ProductSubCategories);
             await context.SaveChangesAsync();
 
             foreach (var item in model.UpdateProductLanguageDTOs)
@@ -115,19 +151,37 @@ namespace DataAccess.Concrete.EntityFramework
                 await context.AddAsync(productLanguage);
             }
             await context.SaveChangesAsync();
-            foreach (var item in model.UpdateProductLanguageDTOs)
+
+
+            foreach (var item in model.UpdateSpecificationDTOs)
             {
                 Specification specification = new();
                 specification.ProductId = findData.Id;
                 await context.AddAsync(specification);
+                foreach (var spec in item.UpdateSpecificationLanguageDTOs)
+                {
+                    
                 SpecificationLanguage specificationLanguage = new()
                 {
                     SpecificationId = specification.Id,
-                    LangCode = item.LangCode,
-                    Key = item.Key,
-                    Value = item.Value
+                    LangCode = spec.LangCode,
+                    Key = spec.Key,
+                    Value = spec.Value 
                 };
+                    await context.AddAsync(specificationLanguage);
+                }
+                await context.SaveChangesAsync();
             }
+            foreach (var item in model.SubCategoryId)
+            {
+                ProductSubCategory productSubCategory = new()
+                {
+                    ProductId = findData.Id,
+                    SubCategoryId = item
+                };
+                await context.AddAsync(productSubCategory);
+            }
+            await context.SaveChangesAsync();
         }
     }
 }
