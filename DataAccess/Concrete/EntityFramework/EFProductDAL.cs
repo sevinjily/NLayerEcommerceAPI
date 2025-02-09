@@ -3,6 +3,7 @@ using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs.CategoryDTOs;
 using Entities.DTOs.ProductDTOs;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
@@ -79,6 +80,54 @@ namespace DataAccess.Concrete.EntityFramework
                 await transaction.RollbackAsync();
 
             }
-        }   
+        }
+
+        public async Task UpdateProductAsync(Guid id, UpdateProductDTO model)   
+        {
+           await using var context= new AppDbContext();
+           var findData= context.Products
+                .Include(x=>x.Specifications)
+                .Include(x => x.ProductLanguages)
+                .Include(x => x.ProductSubCategories)
+                .ThenInclude(x => x.SubCategory)
+                .FirstOrDefault(x => x.Id == id);
+
+            findData.Discount = model.Discount;
+            findData.IsStock = model.IsStock;
+            findData.Price = model.Price;
+            findData.Review = model.Review;
+            context.Update(findData);
+
+            context.Remove(findData.Specifications);
+            context.Remove(findData.ProductLanguages);
+            context.Remove(findData.ProductSubCategories);
+            await context.SaveChangesAsync();
+
+            foreach (var item in model.UpdateProductLanguageDTOs)
+            {
+                ProductLanguage productLanguage = new()
+                {
+                    ProductId = findData.Id,
+                    ProductName = item.ProductName,
+                    Description = item.Description,
+                    LangCode = item.LangCode
+                };
+                await context.AddAsync(productLanguage);
+            }
+            await context.SaveChangesAsync();
+            foreach (var item in model.UpdateProductLanguageDTOs)
+            {
+                Specification specification = new();
+                specification.ProductId = findData.Id;
+                await context.AddAsync(specification);
+                SpecificationLanguage specificationLanguage = new()
+                {
+                    SpecificationId = specification.Id,
+                    LangCode = item.LangCode,
+                    Key = item.Key,
+                    Value = item.Value
+                };
+            }
+        }
     }
 }

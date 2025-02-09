@@ -7,5 +7,6 @@ namespace DataAccess.Abstract
     public interface IProductDAL :IRepositoryBase<Product>
     {
         Task CreateProductAsync(AddProductDTO model);
+        Task UpdateProductAsync(Guid id, UpdateProductDTO model);
     }
 }
