@@ -8,5 +8,6 @@ namespace DataAccess.Abstract
     {
         Task CreateProductAsync(AddProductDTO model);
         Task UpdateProductAsync(Guid id, UpdateProductDTO model);
+        GetProductDTO GetProductAsync(Guid id,string LangCode);
     }
 }
