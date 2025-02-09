@@ -1,4 +1,5 @@
 
+using BenchmarkDotNet.Running;
 using Business.DependencyResolver;
 using Core.DependencyResolver;
 using FluentValidation.AspNetCore;
@@ -8,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Security.Claims;
 using System.Text;
+using WebAPI.Controllers;
 using WebAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);

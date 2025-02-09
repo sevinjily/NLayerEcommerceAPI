@@ -12,5 +12,7 @@ namespace Entities.Concrete
         public List<ProductSize> ProductSizes { get; set; }
         public List<ProductColor> ProductColors { get; set; }
         public ICollection<ProductSubCategory> ProductSubCategories { get; set; }
+        public ICollection<Specification> Specifications { get; set; }
+      
     }
 }
