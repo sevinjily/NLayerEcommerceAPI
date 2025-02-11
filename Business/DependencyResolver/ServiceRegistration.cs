@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Concrete;
+using Business.Utilities.Storage.Abstract;
+using Business.Utilities.Storage.Concrete;
 using Business.Validations.FluentValidation;
 using Core.Entities.Concrete;
 using DataAccess.Abstract;
@@ -33,5 +35,11 @@ namespace Business.DependencyResolver
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
         }
+        public static void AddStorageService<T>(this IServiceCollection services)
+            where T:Storage,IStorage
+        {
+
+            services.AddScoped<IStorage,T>();
+        } 
     }
 }

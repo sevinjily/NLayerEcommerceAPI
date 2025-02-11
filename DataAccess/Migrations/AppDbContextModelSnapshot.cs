@@ -102,6 +102,34 @@ namespace DataAccess.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Entities.Common.File", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MyProperty");
+                });
+
             modelBuilder.Entity("Entities.Concrete.Category", b =>
                 {
                     b.Property<Guid>("Id")
@@ -618,7 +646,7 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("Entities.Concrete.Specification", b =>
                 {
                     b.HasOne("Entities.Concrete.Product", "Product")
-                        .WithMany()
+                        .WithMany("Specifications")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -664,6 +692,8 @@ namespace DataAccess.Migrations
                     b.Navigation("ProductSizes");
 
                     b.Navigation("ProductSubCategories");
+
+                    b.Navigation("Specifications");
                 });
 
             modelBuilder.Entity("Entities.Concrete.Size", b =>

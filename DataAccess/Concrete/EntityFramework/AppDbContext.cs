@@ -25,6 +25,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<Size> Sizes { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
+        public DbSet<Entities.Common.File> MyProperty { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var datas = ChangeTracker.Entries<BaseEntity>();
