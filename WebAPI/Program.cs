@@ -1,6 +1,5 @@
-
-using BenchmarkDotNet.Running;
 using Business.DependencyResolver;
+using Business.Utilities.Storage.Concrete.LocalStorage;
 using Core.DependencyResolver;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -9,7 +8,6 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Security.Claims;
 using System.Text;
-using WebAPI.Controllers;
 using WebAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +24,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 // Add services to the container.
 builder.Services.AddBusinessService();
 builder.Services.AddCoreService();
+builder.Services.AddStorageService<LocalStorage>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
