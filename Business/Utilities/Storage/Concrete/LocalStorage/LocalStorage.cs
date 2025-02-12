@@ -1,7 +1,9 @@
 ﻿using Business.Utilities.Storage.Abstract.LocalStorage;
 using Entities.Common;
 using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Hosting;
+
 
 namespace Business.Utilities.Storage.Concrete.LocalStorage
 {
@@ -14,10 +16,11 @@ namespace Business.Utilities.Storage.Concrete.LocalStorage
             _env = env;
         }
 
+
         public async Task<Upload> UploadFileAsync(string path, IFormFile file)
         {
             string uploadPath = Path.Combine(_env.WebRootPath, path);
-            if(!Directory.Exists(uploadPath) == false)
+            if (!Directory.Exists(uploadPath) == false)
                 Directory.CreateDirectory(uploadPath);
 
             var newFileName = Guid.NewGuid().ToString() + file.FileName;
@@ -30,7 +33,8 @@ namespace Business.Utilities.Storage.Concrete.LocalStorage
             {
                 FileName = newFileName,
                 Path = uploadPath
-            }; 
+            };
         }
+      
     }
 }
