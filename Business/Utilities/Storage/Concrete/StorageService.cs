@@ -15,7 +15,7 @@ namespace Business.Utilities.Storage.Concrete
 
         public StorageService(IStorage storage)
         {
-            _storage = storage;
+            _storage = storage; 
         }
 
         public string StorageName { get => _storage.GetType().Name; }
