@@ -8,3 +8,4 @@ namespace Business.Utilities.Storage.Abstract
         Task<Upload> UploadFileAsync(string path, IFormFile file);
     }
 }
+    

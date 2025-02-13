@@ -24,6 +24,25 @@
           "WebAPI.dll": {}
         }
       },
+      "AWSSDK.Core/3.7.402": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.414.4": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.414.4"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
@@ -1475,6 +1494,7 @@
       },
       "Business/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.414.4",
           "DataAccess": "1.0.0",
           "FluentValidation": "11.10.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.3.0",
@@ -1534,6 +1554,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ALsX3gul5Q1HgDmKUhF1McPbLaVwIZb34garD28vOMaaVof/SeYzj+ViOMe7mDW/gJdOSnRDUmaAuD1EcKHxgA==",
+      "path": "awssdk.core/3.7.402",
+      "hashPath": "awssdk.core.3.7.402.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.414.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6txrfWznx//6pLaY6FlPjataK4EABKIosgEcRZAVeDa0/1dCyqUGQEYjoH04MBDzrPWlcEbyM+t1acMPL4tpw==",
+      "path": "awssdk.s3/3.7.414.4",
+      "hashPath": "awssdk.s3.3.7.414.4.nupkg.sha512"
     },
     "Azure.Core/1.35.0": {
       "type": "package",

@@ -29,6 +29,8 @@ namespace Business.DependencyResolver
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDAL,EFProductDAL>();
 
+            services.AddScoped<IStorageService,StorageService> ();
+
             ValidatorOptions.Global.LanguageManager = new CustomLanguageManager();
 
             services.AddIdentity<AppUser, AppRole>()

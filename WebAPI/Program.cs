@@ -1,4 +1,5 @@
 using Business.DependencyResolver;
+using Business.Utilities.Storage.Concrete.AwsStorage;
 using Business.Utilities.Storage.Concrete.LocalStorage;
 using Core.DependencyResolver;
 using FluentValidation.AspNetCore;
@@ -24,7 +25,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 // Add services to the container.
 builder.Services.AddBusinessService();
 builder.Services.AddCoreService();
-builder.Services.AddStorageService<LocalStorage>();
+builder.Services.AddStorageService<AwsStorage>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -72,6 +72,17 @@ namespace DataAccess.Concrete.EntityFramework
                 }
                 }
 
+                foreach (var item in model.AddProductPicturesDTOs)
+                {
+                    ProductPicture productPicture = new()
+                    {
+                       
+                        FileName = item.FileName,
+                        Path = item.Path,
+                        ProductId = product.Id
+                    };
+                    await context.ProductPictures.AddAsync(productPicture);
+                }
                 await context.SaveChangesAsync();
                 await transaction.CommitAsync();
             }

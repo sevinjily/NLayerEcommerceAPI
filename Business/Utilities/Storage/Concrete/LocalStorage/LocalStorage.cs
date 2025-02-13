@@ -20,7 +20,7 @@ namespace Business.Utilities.Storage.Concrete.LocalStorage
         public async Task<Upload> UploadFileAsync(string path, IFormFile file)
         {
             string uploadPath = Path.Combine(_env.WebRootPath, path);
-            if (!Directory.Exists(uploadPath) == false)
+            if (!Directory.Exists(uploadPath))
                 Directory.CreateDirectory(uploadPath);
 
             var newFileName = Guid.NewGuid().ToString() + file.FileName;

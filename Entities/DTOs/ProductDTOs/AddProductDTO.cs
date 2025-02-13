@@ -15,5 +15,6 @@ namespace Entities.DTOs.ProductDTOs
         public IList<Guid> SubCategoryId { get; set; }
         public List<AddProductLanguageDTO> AddProductLanguageDTOs { get; set; }
         public List<AddSpecificationDTO> AddSpecificationDTOs { get; set; }
+        public List<AddProductPicturesDTO> AddProductPicturesDTOs { get; set; }
     }
 }

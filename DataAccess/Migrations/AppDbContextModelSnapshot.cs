@@ -111,6 +111,11 @@ namespace DataAccess.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
                     b.Property<string>("FileName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -128,6 +133,10 @@ namespace DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Files");
+
+                    b.HasDiscriminator().HasValue("File");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Entities.Concrete.Category", b =>
@@ -564,6 +573,18 @@ namespace DataAccess.Migrations
                     b.ToTable("UserTokens");
                 });
 
+            modelBuilder.Entity("Entities.Concrete.ProductPicture", b =>
+                {
+                    b.HasBaseType("Entities.Common.File");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasDiscriminator().HasValue("ProductPicture");
+                });
+
             modelBuilder.Entity("Entities.Concrete.CategoryLanguage", b =>
                 {
                     b.HasOne("Entities.Concrete.Category", "Category")
@@ -676,6 +697,17 @@ namespace DataAccess.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("Entities.Concrete.ProductPicture", b =>
+                {
+                    b.HasOne("Entities.Concrete.Product", "Product")
+                        .WithMany("ProductPicturea")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("Entities.Concrete.Category", b =>
                 {
                     b.Navigation("CategoryLanguages");
@@ -688,6 +720,8 @@ namespace DataAccess.Migrations
                     b.Navigation("ProductColors");
 
                     b.Navigation("ProductLanguages");
+
+                    b.Navigation("ProductPicturea");
 
                     b.Navigation("ProductSizes");
 
