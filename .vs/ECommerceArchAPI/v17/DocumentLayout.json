@@ -74,8 +74,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -86,8 +94,7 @@
               "RelativeToolTip": "Business\\Utilities\\Storage\\Abstract\\IStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T18:01:30.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T18:01:30.867Z"
             },
             {
               "$type": "Document",
@@ -99,8 +106,7 @@
               "RelativeToolTip": "Business\\Utilities\\Storage\\Abstract\\AwsStorage\\IAwsStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T18:00:22.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T18:00:22.503Z"
             },
             {
               "$type": "Document",
@@ -112,8 +118,7 @@
               "RelativeToolTip": "Business\\Utilities\\Storage\\Concrete\\AwsStorage\\AwsStorage.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:59:29.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T17:59:29.587Z"
             },
             {
               "$type": "Document",
@@ -123,7 +128,7 @@
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\appsettings.json",
               "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-13T17:57:03.591Z",
               "EditorCaption": ""
@@ -138,8 +143,7 @@
               "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFProductDAL.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAswEoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:47:00.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T16:47:00.939Z"
             },
             {
               "$type": "Document",
@@ -151,16 +155,7 @@
               "RelativeToolTip": "Entities\\DTOs\\ProductDTOs\\AddProductDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:46:14.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "WhenOpened": "2025-02-13T16:46:14.516Z"
             },
             {
               "$type": "Document",
@@ -172,8 +167,7 @@
               "RelativeToolTip": "WebAPI\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:03:37.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T20:03:37.553Z"
             },
             {
               "$type": "Document",
@@ -185,8 +179,7 @@
               "RelativeToolTip": "Entities\\DTOs\\ProductDTOs\\AddProductPicturesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:45:10.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T16:45:10.377Z"
             },
             {
               "$type": "Document",
@@ -234,8 +227,7 @@
               "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwC0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:41:28.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T18:41:28.296Z"
             },
             {
               "$type": "Document",
@@ -247,8 +239,7 @@
               "RelativeToolTip": "Entities\\Concrete\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:37:34.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T18:37:34.848Z"
             },
             {
               "$type": "Document",
