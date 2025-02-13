@@ -31,7 +31,7 @@ namespace Business.Utilities.Storage.Concrete.AwsStorage
             await fileTransferUtility.UploadAsync(fileStream, path ,key);
 
             upload.FileName = key;
-                upload.Path = $"https://{path}.s3.eu-north-1.amazonaws.com/";
+                upload.Path = "";
 
             return upload;
         }
