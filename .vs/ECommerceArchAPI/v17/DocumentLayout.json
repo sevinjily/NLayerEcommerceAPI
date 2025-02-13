@@ -116,7 +116,7 @@
               "RelativeDocumentMoniker": "Business\\Utilities\\Storage\\Concrete\\AwsStorage\\AwsStorage.cs",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Utilities\\Storage\\Concrete\\AwsStorage\\AwsStorage.cs",
               "RelativeToolTip": "Business\\Utilities\\Storage\\Concrete\\AwsStorage\\AwsStorage.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T17:59:29.587Z",
               "EditorCaption": ""
@@ -129,9 +129,10 @@
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\appsettings.json",
               "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T17:57:03.591Z"
+              "WhenOpened": "2025-02-13T17:57:03.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -167,7 +168,8 @@
               "RelativeToolTip": "WebAPI\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:03:37.553Z"
+              "WhenOpened": "2025-02-12T20:03:37.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
