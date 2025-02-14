@@ -27,6 +27,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<Entities.Common.File> Files { get; set; }
         public DbSet<ProductPicture> ProductPictures { get; set; }
+        public DbSet<Brand> Brands { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {   
             var datas = ChangeTracker.Entries<BaseEntity>();

@@ -531,3 +531,4 @@ C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\ref\W
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\WebAPI.staticwebassets.runtime.json
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AWSSDK.Core.dll
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AWSSDK.S3.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AutoMapper.dll

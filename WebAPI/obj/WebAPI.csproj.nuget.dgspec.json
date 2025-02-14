@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[3.7.414.4, )"
             },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.10.0, )"

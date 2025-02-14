@@ -27,6 +27,16 @@ builder.Services.AddBusinessService();
 builder.Services.AddCoreService();
 builder.Services.AddStorageService<AwsStorage>();
 
+builder.Services.AddCors(x=>x.AddPolicy("Policy",policyBuilder=>
+{
+
+policyBuilder
+    .WithOrigins("https://turbo.az/", "https://localhost:3000/")
+.AllowAnyMethod()
+.AllowAnyHeader()
+.SetIsOriginAllowed((host) => true);
+}));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -111,6 +121,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("Policy");
 
 
 app.UseHttpsRedirection();

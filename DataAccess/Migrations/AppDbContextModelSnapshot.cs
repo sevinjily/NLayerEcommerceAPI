@@ -139,6 +139,38 @@ namespace DataAccess.Migrations
                     b.UseTphMappingStrategy();
                 });
 
+            modelBuilder.Entity("Entities.Concrete.Brand", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("BrandName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PhotoPath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brands");
+                });
+
             modelBuilder.Entity("Entities.Concrete.Category", b =>
                 {
                     b.Property<Guid>("Id")
@@ -700,7 +732,7 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("Entities.Concrete.ProductPicture", b =>
                 {
                     b.HasOne("Entities.Concrete.Product", "Product")
-                        .WithMany("ProductPicturea")
+                        .WithMany("ProductPictures")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -721,7 +753,7 @@ namespace DataAccess.Migrations
 
                     b.Navigation("ProductLanguages");
 
-                    b.Navigation("ProductPicturea");
+                    b.Navigation("ProductPictures");
 
                     b.Navigation("ProductSizes");
 
