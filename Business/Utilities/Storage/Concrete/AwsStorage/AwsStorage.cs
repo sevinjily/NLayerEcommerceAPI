@@ -16,6 +16,7 @@ namespace Business.Utilities.Storage.Concrete.AwsStorage
         public AwsStorage(IConfiguration configuration)
         {
             _configuration = configuration;
+            _amazonS3Client = new AmazonS3Client(_configuration["Aws:AccessKey"], _configuration["Aws:SecretKey"], RegionEndpoint.EUNorth1);
         }
 
         public async Task<Upload> UploadFileAsync(string path, IFormFile file)
@@ -30,6 +31,7 @@ namespace Business.Utilities.Storage.Concrete.AwsStorage
             await fileTransferUtility.UploadAsync(fileStream, path ,key);
 
             upload.FileName = key;
+            upload.Path = $"https://{path}.s3.eu-north-1.amazonaws.com/";
 
             return upload;
         }
