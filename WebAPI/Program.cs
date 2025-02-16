@@ -20,8 +20,7 @@ builder.Services.AddControllers();
 // - "optional: false": Fayl mütl?q mövcud olmalıdır. ?ks halda, t?tbiq x?ta ver?c?k.
 // - "reloadOnChange: true": Faylın m?zmununda d?yişiklik olarsa, sistem yenil?nmiş parametrl?ri avtomatik yükl?y?c?k.
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-//builder.Configuration.AddJsonFile("secrets.json", optional: true, reloadOnChange: true) // Burada secrets.json əlavə edilir
-//    .AddEnvironmentVariables();
+
 
 // Add services to the container.
 builder.Services.AddBusinessService();

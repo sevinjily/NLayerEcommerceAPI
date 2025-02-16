@@ -7,8 +7,10 @@ namespace Entities.Common
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string? OTP { get; set; }
+        public DateTime? ExpiredDate { get; set; }
         [NotMapped]
         public override string? PhotoUrl { get => base.PhotoUrl; set => base.PhotoUrl = value; }
-
+         
     }
 }

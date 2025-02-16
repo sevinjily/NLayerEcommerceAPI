@@ -28,6 +28,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Entities.Common.File> Files { get; set; }
         public DbSet<ProductPicture> ProductPictures { get; set; }
         public DbSet<Brand> Brands { get; set; }
+        //public DbSet<User> Users { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {   
             var datas = ChangeTracker.Entries<BaseEntity>();
@@ -35,7 +36,7 @@ namespace DataAccess.Concrete.EntityFramework
             {
                 switch (data.State)
                 {
-                    case EntityState.Added:
+                    case EntityState.Added: 
                         data.Entity.CreatedDate = DateTime.Now;
                         break;
                     case EntityState.Modified:
@@ -104,7 +105,12 @@ namespace DataAccess.Concrete.EntityFramework
 
             modelBuilder.Entity<IdentityUserToken<string>>()
                 .HasKey(x => new { x.UserId, x.LoginProvider, x.Name });
+            base.OnModelCreating(modelBuilder);
+
+
         }
+      
+
 
 
     }

@@ -2,6 +2,7 @@
 using Business.Messages;
 using Business.Validations.FluentValidation;
 using Core.Entities.Concrete;
+using Core.Utilities.Message.Abstract;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete.ErrorResults;
 using Core.Utilities.Results.Concrete.SuccesResults;
@@ -19,14 +20,16 @@ namespace Business.Concrete
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenService _tokenService;
-        public AuthManager(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenService tokenService)
+        private readonly IMessageService _messageService;   
+        public AuthManager(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenService tokenService, IMessageService messageService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenService = tokenService;
+            _messageService = messageService;
         }
 
-     
+
 
         public async Task<IDataResult<Token>> LoginAsync(LoginDTO loginDTO)
         {
@@ -94,6 +97,15 @@ namespace Business.Concrete
                 return new ErrorDataResult<Token>(statusCode: HttpStatusCode.BadRequest, message:AuthMessage.UserNotFound);
             }
         }
+        //private string GenerateOTP()
+        //{
+        //    byte[] data = new byte[4];
+
+        //    using var rng =System.Security.Cryptography.RandomNumberGenerator.Create();
+        //    rng.GetBytes(data);
+        //    int value = BitConverter.ToInt32(data, 0);
+        //    return Math.Abs(value % 900000).ToString("D6");
+        //}
 
         //[ValidationAspect(typeof(RegisterValidator))]
         public async Task<IResult> RegisterAsync(RegisterDTO model)
@@ -113,10 +125,13 @@ namespace Business.Concrete
                 LastName = model.LastName,
                 Email = model.Email,
                 UserName = model.UserName,
+                OTP = "1234",
+                ExpiredDate = DateTime.Now.AddMinutes(3)
             };
             var result = await _userManager.CreateAsync(newUser, model.Password);
             if (result.Succeeded)
             {
+               await _messageService.SendMessage(newUser.Email, "Welcome", newUser.OTP);
                 return new SuccessResult(System.Net.HttpStatusCode.Created);
             }
             else
