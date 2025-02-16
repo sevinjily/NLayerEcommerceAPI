@@ -1,4 +1,4 @@
-using Business.DependencyResolver;
+ï»¿using Business.DependencyResolver;
 using Business.Utilities.Storage.Concrete.AwsStorage;
 using Business.Utilities.Storage.Concrete.LocalStorage;
 using Core.DependencyResolver;
@@ -16,11 +16,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-// Konfiqurasiya sistemin? appsettings.json faylını ?lav? edir.
-// - "optional: false": Fayl mütl?q mövcud olmalıdır. ?ks halda, t?tbiq x?ta ver?c?k.
-// - "reloadOnChange: true": Faylın m?zmununda d?yişiklik olarsa, sistem yenil?nmiş parametrl?ri avtomatik yükl?y?c?k.
+// Konfiqurasiya sistemin? appsettings.json faylÄ±nÄ± ?lav? edir.
+// - "optional: false": Fayl mÃ¼tl?q mÃ¶vcud olmalÄ±dÄ±r. ?ks halda, t?tbiq x?ta ver?c?k.
+// - "reloadOnChange: true": FaylÄ±n m?zmununda d?yiÅŸiklik olarsa, sistem yenil?nmiÅŸ parametrl?ri avtomatik yÃ¼kl?y?c?k.
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-
+//builder.Configuration.AddJsonFile("secrets.json", optional: true, reloadOnChange: true) // Burada secrets.json É™lavÉ™ edilir
+//    .AddEnvironmentVariables();
 
 // Add services to the container.
 builder.Services.AddBusinessService();

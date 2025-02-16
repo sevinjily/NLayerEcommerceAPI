@@ -16,8 +16,7 @@ namespace Business.Utilities.Storage.Concrete.AwsStorage
         public AwsStorage(IConfiguration configuration)
         {
             _configuration = configuration;
-            //var awsAccessKey = Environment.GetEnvironmentVariable("AWS_ACCESS_KEY_ID");
-            //var awsSecretKey = Environment.GetEnvironmentVariable("AWS_SECRET_ACCESS_KEY");
+       
             _amazonS3Client = new AmazonS3Client(_configuration["Aws:AccessKey"], _configuration["Aws:SecretKey"]);
         }
 
