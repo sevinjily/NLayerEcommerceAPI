@@ -10,15 +10,15 @@ namespace Business.Utilities.Storage.Concrete.AwsStorage
 {
     public class AwsStorage : Storage, IAwsStorage
     {
-        //private readonly IConfiguration _configuration;
+        private readonly IConfiguration _configuration;
         private readonly AmazonS3Client _amazonS3Client;
 
         public AwsStorage(IConfiguration configuration)
         {
-            //_configuration = configuration;
-            var awsAccessKey = Environment.GetEnvironmentVariable("AWS_ACCESS_KEY_ID");
-            var awsSecretKey = Environment.GetEnvironmentVariable("AWS_SECRET_ACCESS_KEY");
-            _amazonS3Client = new AmazonS3Client(awsAccessKey, awsSecretKey, RegionEndpoint.EUNorth1);
+            _configuration = configuration;
+            //var awsAccessKey = Environment.GetEnvironmentVariable("AWS_ACCESS_KEY_ID");
+            //var awsSecretKey = Environment.GetEnvironmentVariable("AWS_SECRET_ACCESS_KEY");
+            _amazonS3Client = new AmazonS3Client(_configuration["Aws:AccessKey"], _configuration["Aws:SecretKey"]);
         }
 
         public async Task<Upload> UploadFileAsync(string path, IFormFile file)
