@@ -7,32 +7,36 @@
       "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\common\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\common\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216195228_init-User2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20250216195228_init-User2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250219100158_init-User3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20250219100158_init-User3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\entities\\common\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDCBC74-9760-4CB0-85AF-B26DEF75D7F7}|Entities\\Entities.csproj|solutionrelative:entities\\common\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20AFA73C-7C0B-4D3E-8334-EFB7642B390D}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250219095057_init-userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20250219095057_init-userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9F0561-9FC3-4A27-AAAC-FF5A06B6FBBC}|Business\\Business.csproj|solutionrelative:business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1457FC02-BC2F-4191-AD12-0F0D4E9C8E73}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\webapi\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -188,6 +192,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\migrations\\20250216183750_init-otp1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250216183750_init-otp1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\onedrive\\\u0130\u015F masas\u0131\\archiecommerce\\dataaccess\\migrations\\20250216195228_init-user2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A458A8C-FBDA-4BA8-80F0-4195B56803B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250216195228_init-user2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -210,27 +218,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20250216195228_init-User2.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216195228_init-User2.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216195228_init-User2.cs",
-              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216195228_init-User2.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20250216195228_init-User2.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAkAAAAFAAAAAAAAAA==",
+              "Title": "20250219100158_init-User3.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250219100158_init-User3.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250219100158_init-User3.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250219100158_init-User3.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250219100158_init-User3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:52:28.913Z",
+              "WhenOpened": "2025-02-19T10:01:58.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20250216194036_Init-User1.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216194036_Init-User1.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216194036_Init-User1.cs",
-              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216194036_Init-User1.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20250216194036_Init-User1.cs",
+              "DocumentIndex": 6,
+              "Title": "20250219095057_init-userr.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250219095057_init-userr.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250219095057_init-userr.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250219095057_init-userr.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250219095057_init-userr.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:40:36.282Z"
+              "WhenOpened": "2025-02-19T09:50:57.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,9 +249,10 @@
               "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\AppUser.cs",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\AppUser.cs",
               "RelativeToolTip": "Core\\Entities\\Concrete\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:09:30.649Z"
+              "WhenOpened": "2025-02-16T19:09:30.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,7 +262,7 @@
               "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\AuthManager.cs*",
               "RelativeToolTip": "Business\\Concrete\\AuthManager.cs*",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAswH8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswIIAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T18:42:49.28Z",
               "EditorCaption": ""
@@ -265,27 +275,40 @@
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA0wB4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T18:41:28.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Common\\User.cs",
               "RelativeDocumentMoniker": "Entities\\Common\\User.cs",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Common\\User.cs",
               "RelativeToolTip": "Entities\\Common\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T18:32:13.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:55:20.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
@@ -297,32 +320,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 43,
+              "Title": "20250216194036_Init-User1.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216194036_Init-User1.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216194036_Init-User1.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216194036_Init-User1.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250216194036_Init-User1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:40:36.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\DependencyResolver\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Business\\DependencyResolver\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\DependencyResolver\\ServiceRegistration.cs",
               "RelativeToolTip": "Business\\DependencyResolver\\ServiceRegistration.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T20:04:28.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 48,
+              "Title": "20250216195228_init-User2.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216195228_init-User2.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216195228_init-User2.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216195228_init-User2.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250216195228_init-User2.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:55:20.586Z"
+              "WhenOpened": "2025-02-16T19:52:28.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\BrandController.cs",
@@ -334,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppRole.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\Concrete\\AppRole.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\AppRole.cs",
@@ -346,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Entities\\IEntity.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\IEntity.cs",
@@ -358,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "20250216190635_Init-User.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216190635_Init-User.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216190635_Init-User.cs",
@@ -370,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "20250216190502_Init-OTP2.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216190502_Init-OTP2.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216190502_Init-OTP2.cs",
@@ -382,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
@@ -394,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Asus\\AppData\\Roaming\\Microsoft\\UserSecrets\\0225dfb6-ec99-4eb0-ba34-6f9cd86e31ec\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\0225dfb6-ec99-4eb0-ba34-6f9cd86e31ec\\secrets.json",
@@ -406,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "20250216183422_Init-OTP.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216183422_Init-OTP.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216183422_Init-OTP.cs",
@@ -418,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "20250216183750_Init-OTP1.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250216183750_Init-OTP1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250216183750_Init-OTP1.cs",
@@ -430,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DependencyResolver\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Core\\DependencyResolver\\ServiceRegistration.cs",
@@ -442,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LocalStorage.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Utilities\\Storage\\Concrete\\LocalStorage\\LocalStorage.cs",
               "RelativeDocumentMoniker": "Business\\Utilities\\Storage\\Concrete\\LocalStorage\\LocalStorage.cs",
@@ -454,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AwsStorage.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Utilities\\Storage\\Concrete\\AwsStorage\\AwsStorage.cs",
               "RelativeDocumentMoniker": "Business\\Utilities\\Storage\\Concrete\\AwsStorage\\AwsStorage.cs",
@@ -466,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MessageService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Message\\Concrete\\MessageService.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Message\\Concrete\\MessageService.cs",
@@ -478,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\Utilities\\Message\\Abstract\\IMessageService.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Message\\Abstract\\IMessageService.cs",
@@ -490,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.Development.json",
@@ -502,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\.env",
               "RelativeDocumentMoniker": "WebAPI\\.env",
@@ -514,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "EFProductDAL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFProductDAL.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFProductDAL.cs",
@@ -526,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BrandManager.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Concrete\\BrandManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
@@ -538,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IBrandService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Abstract\\IBrandService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IBrandService.cs",
@@ -550,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UpdateBrandDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\BrandDTOs\\UpdateBrandDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\BrandDTOs\\UpdateBrandDTO.cs",
@@ -562,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Business\\Mapping\\MappingProfile.cs",
@@ -574,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AddBrandDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\BrandDTOs\\AddBrandDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\BrandDTOs\\AddBrandDTO.cs",
@@ -586,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GetBrandDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\BrandDTOs\\GetBrandDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\BrandDTOs\\GetBrandDTO.cs",
@@ -598,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "EFBrandDAL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFBrandDAL.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFBrandDAL.cs",
@@ -610,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EFCategoryDAL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
@@ -622,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "20250214174609_Init-Brand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250214174609_Init-Brand.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250214174609_Init-Brand.cs",
@@ -634,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Brand.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Brand.cs",
@@ -646,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Core\\DataAccess\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\IRepositoryBase.cs",
@@ -658,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IBrandDAL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Abstract\\IBrandDAL.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\IBrandDAL.cs",
@@ -670,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "IAwsStorage.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Utilities\\Storage\\Abstract\\AwsStorage\\IAwsStorage.cs",
               "RelativeDocumentMoniker": "Business\\Utilities\\Storage\\Abstract\\AwsStorage\\IAwsStorage.cs",
@@ -682,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "AddProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\ProductDTOs\\AddProductDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\ProductDTOs\\AddProductDTO.cs",
@@ -694,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "IStorage.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Business\\Utilities\\Storage\\Abstract\\IStorage.cs",
               "RelativeDocumentMoniker": "Business\\Utilities\\Storage\\Abstract\\IStorage.cs",
@@ -706,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AddProductPicturesDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\DTOs\\ProductDTOs\\AddProductPicturesDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\ProductDTOs\\AddProductPicturesDTO.cs",
@@ -718,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "20250213115607_Init-8.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250213115607_Init-8.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250213115607_Init-8.cs",
@@ -730,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "20250212184445_Init-7.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\DataAccess\\Migrations\\20250212184445_Init-7.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250212184445_Init-7.cs",
@@ -742,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\Product.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",
@@ -754,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ProductPicture.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\Entities\\Concrete\\ProductPicture.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\ProductPicture.cs",
@@ -766,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "UploadController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0130\u015F masas\u0131\\ArchiECommerce\\WebAPI\\Controllers\\UploadController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\UploadController.cs",

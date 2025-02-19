@@ -97,15 +97,15 @@ namespace Business.Concrete
                 return new ErrorDataResult<Token>(statusCode: HttpStatusCode.BadRequest, message:AuthMessage.UserNotFound);
             }
         }
-        //private string GenerateOTP()
-        //{
-        //    byte[] data = new byte[4];
+        private string GenerateOtp()
+        {
+            byte[] data = new byte[4];
 
-        //    using var rng =System.Security.Cryptography.RandomNumberGenerator.Create();
-        //    rng.GetBytes(data);
-        //    int value = BitConverter.ToInt32(data, 0);
-        //    return Math.Abs(value % 900000).ToString("D6");
-        //}
+            using var rng = System.Security.Cryptography.RandomNumberGenerator.Create();
+            rng.GetBytes(data);
+            int value = BitConverter.ToInt32(data, 0);
+            return Math.Abs(value % 900000).ToString("D6");
+        }
 
         //[ValidationAspect(typeof(RegisterValidator))]
         public async Task<IResult> RegisterAsync(RegisterDTO model)
@@ -119,13 +119,13 @@ namespace Business.Concrete
                 return new ErrorResult(message: validationResult.ToString(),HttpStatusCode.BadRequest);
             }
 
-            User newUser = new()
+            AppUser newUser = new()
             {
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 Email = model.Email,
                 UserName = model.UserName,
-                OTP = "1234",
+                OTP = GenerateOtp(),
                 ExpiredDate = DateTime.Now.AddMinutes(3)
             };
             var result = await _userManager.CreateAsync(newUser, model.Password);
