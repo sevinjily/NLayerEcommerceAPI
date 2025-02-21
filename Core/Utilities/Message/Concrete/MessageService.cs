@@ -24,7 +24,7 @@ namespace Core.Utilities.Message.Concrete
             mailMessage.To.Add(to);
             mailMessage.Body = message;
             mailMessage.Subject = subject;
-            mailMessage.From = new(_configuration["EmailSettings:Email"], "Elgiz Elgizli", System.Text.Encoding.UTF8);
+            mailMessage.From = new(_configuration["EmailSettings:Email"], "BigDataCO", System.Text.Encoding.UTF8);
 
             SmtpClient smtpClient = new()
             {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cR+MzacZYbeH8iDHNMHfiPbtpnQKu3TQThnbLniqPvo=",
+  "Hash": "ya6BCd88OxKQIJpcFdhGJApSJa0WLlmvgZQ3vnaVxaA=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -22,15 +22,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "phones/8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png",
+      "RelativePath": "phones/8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "qancpilgj2",
+      "Integrity": "8pGkm3xweasE1ogEqXI49z9f///qaQIrHbrRnDmDVHg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\phones\\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png"
@@ -41,15 +43,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "phones/c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png",
+      "RelativePath": "phones/c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "lfkvl7c0sc",
+      "Integrity": "zxXUxnX2QD71XOn0b/fQCgXh5W33Hq9avxP0ln72tOo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\phones\\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png"
@@ -60,15 +64,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "uploads/09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg",
+      "RelativePath": "uploads/09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "e012k51d3z",
+      "Integrity": "nomeAnECosI2vY10zeWZPF894pAWySrM+aaWDjbyP0Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg"
@@ -79,18 +85,350 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "uploads/d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg",
+      "RelativePath": "uploads/d93b75a3-9612-4098-b909-08d8114d654cBTT#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "mfsbwerttb",
+      "Integrity": "TpNh8Ed+VnW78Y/CMCFcXYLgMzNtkUikQ2aybRpeiiM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "phones/8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.qancpilgj2.png",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\phones\\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8pGkm3xweasE1ogEqXI49z9f///qaQIrHbrRnDmDVHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 17:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qancpilgj2"
+        },
+        {
+          "Name": "label",
+          "Value": "phones/8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8pGkm3xweasE1ogEqXI49z9f///qaQIrHbrRnDmDVHg="
+        }
+      ]
+    },
+    {
+      "Route": "phones/8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\phones\\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8pGkm3xweasE1ogEqXI49z9f///qaQIrHbrRnDmDVHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 17:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8pGkm3xweasE1ogEqXI49z9f///qaQIrHbrRnDmDVHg="
+        }
+      ]
+    },
+    {
+      "Route": "phones/c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.lfkvl7c0sc.png",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\phones\\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxXUxnX2QD71XOn0b/fQCgXh5W33Hq9avxP0ln72tOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 17:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lfkvl7c0sc"
+        },
+        {
+          "Name": "label",
+          "Value": "phones/c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxXUxnX2QD71XOn0b/fQCgXh5W33Hq9avxP0ln72tOo="
+        }
+      ]
+    },
+    {
+      "Route": "phones/c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\phones\\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxXUxnX2QD71XOn0b/fQCgXh5W33Hq9avxP0ln72tOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 17:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxXUxnX2QD71XOn0b/fQCgXh5W33Hq9avxP0ln72tOo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.e012k51d3z.jpg",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\uploads\\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nomeAnECosI2vY10zeWZPF894pAWySrM+aaWDjbyP0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 12:00:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e012k51d3z"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nomeAnECosI2vY10zeWZPF894pAWySrM+aaWDjbyP0Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\uploads\\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nomeAnECosI2vY10zeWZPF894pAWySrM+aaWDjbyP0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 12:00:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nomeAnECosI2vY10zeWZPF894pAWySrM+aaWDjbyP0Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\uploads\\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "491859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpNh8Ed+VnW78Y/CMCFcXYLgMzNtkUikQ2aybRpeiiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 17:49:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpNh8Ed+VnW78Y/CMCFcXYLgMzNtkUikQ2aybRpeiiM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d93b75a3-9612-4098-b909-08d8114d654cBTT.mfsbwerttb.jpg",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\İş masası\\ArchiECommerce\\WebAPI\\wwwroot\\uploads\\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "491859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpNh8Ed+VnW78Y/CMCFcXYLgMzNtkUikQ2aybRpeiiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 17:49:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mfsbwerttb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpNh8Ed+VnW78Y/CMCFcXYLgMzNtkUikQ2aybRpeiiM="
+        }
+      ]
     }
   ]
 }

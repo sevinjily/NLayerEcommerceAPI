@@ -53,6 +53,14 @@ namespace WebAPI.Controllers
                 return Ok(result);
             return BadRequest(result);
         }
+        [HttpPut("[action]")]
+        public async Task<IActionResult> EmailConfirm(string email,string otp)
+        {
+            var result = await _authService.UserEmailConfirm(email, otp);
+            if (result.Success)
+                return Ok(result);
+            return BadRequest(result); 
+        }
        
     }
 }

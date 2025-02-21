@@ -12,13 +12,15 @@ using Entities.DTOs.AuthDTOs;
 using Microsoft.AspNetCore.Identity;
 using Serilog;
 using System.Net;
+using System.Threading.Tasks;
+using static System.Net.WebRequestMethods;
 
 namespace Business.Concrete
 {
     public class AuthManager : IAuthService
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly SignInManager<AppUser> _signInManager;
+        private readonly SignInManager<AppUser> _signInManager;     
         private readonly ITokenService _tokenService;
         private readonly IMessageService _messageService;   
         public AuthManager(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenService tokenService, IMessageService messageService)
@@ -36,8 +38,14 @@ namespace Business.Concrete
             var findUser = await _userManager.FindByEmailAsync(loginDTO.UsernameOrEmail);
             if (findUser == null)
                 findUser = await _userManager.FindByNameAsync(loginDTO.UsernameOrEmail);
+
             if (findUser == null)
                 return new ErrorDataResult<Token>(message: "User does not exist!", HttpStatusCode.NotFound);
+
+            if (findUser.EmailConfirmed == false)
+            {
+                return new ErrorDataResult<Token>(message: "User not confirmed",HttpStatusCode.BadRequest);
+            }
 
             var result = await _signInManager.CheckPasswordSignInAsync(findUser, loginDTO.Password, false);
             var userRoles = await _userManager.GetRolesAsync(findUser);
@@ -126,7 +134,9 @@ namespace Business.Concrete
                 Email = model.Email,
                 UserName = model.UserName,
                 OTP = GenerateOtp(),
-                ExpiredDate = DateTime.Now.AddMinutes(3)
+                ExpiredDate = DateTime.Now.AddMinutes(3),
+                EmailConfirmed=false
+
             };
             var result = await _userManager.CreateAsync(newUser, model.Password);
             if (result.Succeeded)
@@ -145,8 +155,86 @@ namespace Business.Concrete
                 return new ErrorResult(response, System.Net.HttpStatusCode.BadRequest);
             }
         }
+        private string GenerateNewOTP()
+        {
+            Random random = new Random();
+            return random.Next(100000, 999999).ToString(); // 6 rəqəmli OTP
+        }
 
-            public async Task<IDataResult<string>> UpdateRefreshToken(string refreshToken, AppUser appUser)
+        public async Task<IResult> UserEmailConfirm(string email, string otp)
+        {
+            var findUser = _userManager.Users.FirstOrDefault(x=>x.Email==email);
+
+            if (findUser == null)
+                return new ErrorResult("User not found.", HttpStatusCode.NotFound);
+
+            if (findUser.EmailConfirmed)
+                return new ErrorResult("Email is already confirmed.", HttpStatusCode.BadRequest);
+
+
+            if (findUser.LockoutEnd.HasValue && findUser.LockoutEnd > DateTime.Now)
+            {
+                return new ErrorResult("Too many failed attempts. Try again later.", HttpStatusCode.Forbidden);
+            }
+
+            if (string.IsNullOrEmpty(findUser.OTP) || findUser.ExpiredDate <= DateTime.Now)
+            {
+                string newOtp = GenerateNewOTP();
+                findUser.OTP = newOtp;
+                findUser.ExpiredDate = DateTime.Now.AddMinutes(5); // Yeni OTP 5 dəqiqə keçərli olacaq
+                findUser.FailedAttempts = 0; // Yanlış cəhdləri sıfırlayırıq
+                await _userManager.UpdateAsync(findUser);
+
+
+                await _messageService.SendMessage(findUser.Email,"Welcome", findUser.OTP);
+                return new ErrorResult("OTP expired. A new OTP has been sent.", HttpStatusCode.BadRequest);
+            }
+
+            if (findUser.FailedAttempts > 3) // 5 səhv + 5 yeni kodla səhv
+            {
+                findUser.LockoutEnd = DateTime.Now.AddMinutes(15); // 15 dəqiqəlik bloklama
+                await _userManager.UpdateAsync(findUser);
+                return new ErrorResult("Too many failed attempts. Your account is temporarily locked.", HttpStatusCode.Forbidden);
+            }
+
+            if (findUser.FailedAttempts == 3)
+            {
+
+                string newOtp = GenerateNewOTP();
+            findUser.OTP = newOtp;
+            findUser.ExpiredDate = DateTime.Now.AddMinutes(5);
+                findUser.FailedAttempts++; // Yanlış OTP daxil edilibsə, say artırılır
+                await _userManager.UpdateAsync(findUser);
+
+                await  _messageService.SendMessage(findUser.Email, "Welcome", newOtp);
+                return new ErrorResult("Too many failed attempts. A new OTP has been sent.", HttpStatusCode.Forbidden);
+            }
+
+           
+
+            if (findUser.OTP.Length < 6)
+                return new ErrorResult("Invalid OTP format.", HttpStatusCode.BadRequest);
+
+
+            if (findUser.OTP == otp && findUser.ExpiredDate > DateTime.Now)
+            {
+                findUser.EmailConfirmed = true;
+                findUser.OTP = null; // OTP-ni ləğv edirik
+                findUser.FailedAttempts = 0; // Səhv cəhd sayını sıfırlayırıq
+                await _userManager.UpdateAsync(findUser);
+                return new SuccessResult(HttpStatusCode.OK);
+            }
+
+                findUser.FailedAttempts++; // Yanlış OTP daxil edilibsə, say artırılır
+
+            await _userManager.UpdateAsync(findUser);
+
+            return new ErrorResult("Invalid OTP or expired.", HttpStatusCode.BadRequest);
+
+        }
+    
+
+        public async Task<IDataResult<string>> UpdateRefreshToken(string refreshToken, AppUser appUser)
         {
             if (appUser is not null)
             {
@@ -173,5 +261,6 @@ namespace Business.Concrete
                 return new ErrorDataResult<string>(HttpStatusCode.NotFound);
             }
         }
+       
     }
 }

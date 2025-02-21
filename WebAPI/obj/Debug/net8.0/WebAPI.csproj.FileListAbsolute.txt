@@ -532,3 +532,7 @@ C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\WebAP
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AWSSDK.Core.dll
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AWSSDK.S3.dll
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\WebAPI.staticwebassets.endpoints.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

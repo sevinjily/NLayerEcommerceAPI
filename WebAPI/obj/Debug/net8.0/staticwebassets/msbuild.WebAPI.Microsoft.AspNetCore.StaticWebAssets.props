@@ -1,6 +1,6 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\phones\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\phones\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WebAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -12,11 +12,13 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qancpilgj2</Fingerprint>
+      <Integrity>8pGkm3xweasE1ogEqXI49z9f///qaQIrHbrRnDmDVHg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\phones\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\phones\8c520018-e5e4-4fb4-9559-24fd16e885c2Screenshot 2025-02-05 184128.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\phones\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\phones\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WebAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -28,11 +30,13 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lfkvl7c0sc</Fingerprint>
+      <Integrity>zxXUxnX2QD71XOn0b/fQCgXh5W33Hq9avxP0ln72tOo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\phones\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\phones\c1c7b9c0-b837-4619-abec-6e451d949e1fScreenshot 2023-10-22 152232.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -44,11 +48,13 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e012k51d3z</Fingerprint>
+      <Integrity>nomeAnECosI2vY10zeWZPF894pAWySrM+aaWDjbyP0Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\09c41e7c-007c-4073-a49e-a6f864d2c175TokenPicture1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -60,9 +66,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mfsbwerttb</Fingerprint>
+      <Integrity>TpNh8Ed+VnW78Y/CMCFcXYLgMzNtkUikQ2aybRpeiiM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d93b75a3-9612-4098-b909-08d8114d654cBTT.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

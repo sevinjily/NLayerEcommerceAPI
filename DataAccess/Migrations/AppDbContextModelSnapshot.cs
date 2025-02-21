@@ -71,6 +71,9 @@ namespace DataAccess.Migrations
                     b.Property<DateTime?>("ExpiredDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("FailedAttempts")
+                        .HasColumnType("int");
+
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

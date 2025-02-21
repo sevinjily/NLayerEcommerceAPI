@@ -16,6 +16,7 @@ namespace Business.Abstract
         Task<IDataResult<string>> UpdateRefreshToken(string refreshToken, AppUser appUser);
         Task<IDataResult<Token>> RefreshTokenLoginAsync(string refreshToken);
         Task<IResult> LogOut(string userId);
+        Task<IResult> UserEmailConfirm(string email, string otp);
         
     }
 }
