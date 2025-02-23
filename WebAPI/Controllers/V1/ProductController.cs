@@ -1,13 +1,15 @@
-﻿using BenchmarkDotNet.Attributes;
+﻿using Asp.Versioning;
+using BenchmarkDotNet.Attributes;
 using Business.Abstract;
 using Entities.DTOs.ProductDTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.RegularExpressions;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{v:apiVersion}/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -18,6 +20,7 @@ namespace WebAPI.Controllers
             _productService = productService;
         }
         [HttpPost]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> Create(AddProductDTO product)
         {
             var result=await _productService.CreateAsync(product);
@@ -25,6 +28,7 @@ namespace WebAPI.Controllers
 
             }
         [HttpPut("{id}/[action]")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> Update(Guid id, UpdateProductDTO product)
         {
             var result = await _productService.UpdateAsync(id, product);
@@ -35,6 +39,7 @@ namespace WebAPI.Controllers
 
         }
         [HttpGet("{id}")]
+        [MapToApiVersion("1.0")]
         public IActionResult GetById(Guid id)
         {
             var lang=Thread.CurrentThread.CurrentCulture.Name;

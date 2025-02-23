@@ -1,6 +1,7 @@
-﻿using Business.DependencyResolver;
+﻿using Asp.Versioning;
+using Asp.Versioning.ApiExplorer;
+using Business.DependencyResolver;
 using Business.Utilities.Storage.Concrete.AwsStorage;
-using Business.Utilities.Storage.Concrete.LocalStorage;
 using Core.DependencyResolver;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -14,7 +15,6 @@ using WebAPI.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddControllers();
 
 // Konfiqurasiya sistemin? appsettings.json faylını ?lav? edir.
 // - "optional: false": Fayl mütl?q mövcud olmalıdır. ?ks halda, t?tbiq x?ta ver?c?k.
@@ -37,30 +37,42 @@ policyBuilder
 .SetIsOriginAllowed((host) => true);
 }));
 
+
+#region API Versioning
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new UrlSegmentApiVersionReader(),
+        new HeaderApiVersionReader("Api-Version"),
+        new HeaderApiVersionReader("X-Api-Version"));
+}).AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'V";
+    options.SubstituteApiVersionInUrl = true;
+});
+var provider = builder.Services.BuildServiceProvider().GetRequiredService<IApiVersionDescriptionProvider>();
+#endregion
+
+builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-//builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
-FluentValidationMvcExtensions.AddFluentValidation(builder.Services.AddControllersWithViews(), x =>
-{
-    x.RegisterValidatorsFromAssemblyContaining<Program>();
-    x.ValidatorOptions.LanguageManager.Culture = new System.Globalization.CultureInfo("az");
-});
-
-builder.Services.AddLogging();
-
-builder.Host.UseSerilog((context, loggerInformation) =>
-{
-    loggerInformation.ReadFrom.Configuration(context.Configuration);
-});
-
-
-builder.Services.AddTransient<LocalizationMiddleware>();
-builder.Services.AddTransient<GlobalHandlingExceptionMiddleware>();
 builder.Services.AddSwaggerGen(x =>
 {
-    x.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi", Version = "v1", Description = "Identity Service API swagger client." });
+    foreach (var description in provider.ApiVersionDescriptions)
+    {
+        x.SwaggerDoc(description.GroupName, new OpenApiInfo
+        {
+            Title = $" WebApi {description.ApiVersion}",
+            Version = description.ApiVersion.ToString()
+        });
+    }
+    //x.SwaggerDoc("v", new OpenApiInfo { Title = "N layer Arch", Version = "v", Description = "N layer Arch swagger client." });
+    //x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    x.SwaggerDoc("v", new OpenApiInfo { Title = "WebApi", Version = "v", Description = "Identity Service API swagger client." });
     x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
         Name = "Authorization",
@@ -87,7 +99,6 @@ builder.Services.AddSwaggerGen(x =>
     });
 });
 
-
 builder.Services.AddAuthentication(auth =>
 {
     auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -111,6 +122,25 @@ builder.Services.AddAuthentication(auth =>
         NameClaimType = ClaimTypes.Email
     };
 });
+//builder.Services.AddSwaggerGen();
+
+//builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
+FluentValidationMvcExtensions.AddFluentValidation(builder.Services.AddControllersWithViews(), x =>
+{
+    x.RegisterValidatorsFromAssemblyContaining<Program>();
+    x.ValidatorOptions.LanguageManager.Culture = new System.Globalization.CultureInfo("az");
+});
+
+builder.Services.AddLogging();
+
+builder.Host.UseSerilog((context, loggerInformation) =>
+{
+    loggerInformation.ReadFrom.Configuration(context.Configuration);
+});
+
+
+builder.Services.AddTransient<LocalizationMiddleware>();
+builder.Services.AddTransient<GlobalHandlingExceptionMiddleware>();
 
 var app = builder.Build();  
 
@@ -118,7 +148,15 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+
+     foreach (var description in provider.ApiVersionDescriptions)
+    {
+        options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName);
+    }
+    }
+    );
 }
 
 app.UseCors("Policy");

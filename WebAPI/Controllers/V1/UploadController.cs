@@ -1,10 +1,12 @@
-﻿using Business.Utilities.Storage.Abstract;
+﻿using Asp.Versioning;
+using Business.Utilities.Storage.Abstract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{v:apiVersion}/[controller]")]
     [ApiController]
     public class UploadController : ControllerBase
     {
@@ -15,6 +17,7 @@ namespace WebAPI.Controllers
             _storageService = storageService;
         }
         [HttpPost]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> Upload(string path,IFormFile file)
         {
             var result =  await _storageService.UploadFileAsync(path,file);

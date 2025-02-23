@@ -1,12 +1,14 @@
-﻿using Business.Abstract;
+﻿using Asp.Versioning;
+using Business.Abstract;
 using Entities.DTOs.AuthDTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{v:apiVersion}/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -18,6 +20,7 @@ namespace WebAPI.Controllers
         }
         [HttpPost("[action]")]
         //[Authorize(Roles ="Admin")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
             var result=await _authService.RegisterAsync(model);             
@@ -27,6 +30,7 @@ namespace WebAPI.Controllers
             
         }
         [HttpPost("[action]")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDTO)
         {
             var result = await _authService.LoginAsync(loginDTO);
@@ -36,6 +40,7 @@ namespace WebAPI.Controllers
             return BadRequest();
         }
         [HttpPost("refreshToken")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> RefreshTokenLogin([FromBody] RefreshTokenDTO refreshTokenDTO)
         {
             var result = await _authService.RefreshTokenLoginAsync(refreshTokenDTO.RefreshToken);
@@ -45,6 +50,7 @@ namespace WebAPI.Controllers
         }
         [Authorize]
         [HttpPut("[action]")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> LogOut()
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -54,6 +60,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpPut("[action]")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> EmailConfirm(string email,string otp)
         {
             var result = await _authService.UserEmailConfirm(email, otp);

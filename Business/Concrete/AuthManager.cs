@@ -190,7 +190,7 @@ namespace Business.Concrete
                 return new ErrorResult("OTP expired. A new OTP has been sent.", HttpStatusCode.BadRequest);
             }
 
-            if (findUser.FailedAttempts > 3) // 5 səhv + 5 yeni kodla səhv
+            if (findUser.FailedAttempts > 3) // 3 səhv + 3 yeni kodla səhv
             {
                 findUser.LockoutEnd = DateTime.Now.AddMinutes(15); // 15 dəqiqəlik bloklama
                 await _userManager.UpdateAsync(findUser);

@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "WebAPI.Controllers.AuthController",
+    "ContainingType": "WebAPI.Controllers.V1.AuthController",
     "Method": "EmailConfirm",
-    "RelativePath": "api/Auth/EmailConfirm",
+    "RelativePath": "api/v1/Auth/EmailConfirm",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -21,9 +21,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.AuthController",
+    "ContainingType": "WebAPI.Controllers.V1.AuthController",
     "Method": "Login",
-    "RelativePath": "api/Auth/Login",
+    "RelativePath": "api/v1/Auth/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -37,9 +37,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.AuthController",
+    "ContainingType": "WebAPI.Controllers.V1.AuthController",
     "Method": "LogOut",
-    "RelativePath": "api/Auth/LogOut",
+    "RelativePath": "api/v1/Auth/LogOut",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -47,9 +47,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.AuthController",
+    "ContainingType": "WebAPI.Controllers.V1.AuthController",
     "Method": "RefreshTokenLogin",
-    "RelativePath": "api/Auth/refreshToken",
+    "RelativePath": "api/v1/Auth/refreshToken",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -63,9 +63,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.AuthController",
+    "ContainingType": "WebAPI.Controllers.V1.AuthController",
     "Method": "Register",
-    "RelativePath": "api/Auth/Register",
+    "RelativePath": "api/v1/Auth/Register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -79,9 +79,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.BrandController",
+    "ContainingType": "WebAPI.Controllers.V1.BrandController",
     "Method": "Create",
-    "RelativePath": "api/Brand",
+    "RelativePath": "api/v1/Brand",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -95,9 +95,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.BrandController",
+    "ContainingType": "WebAPI.Controllers.V1.BrandController",
     "Method": "Get",
-    "RelativePath": "api/Brand/{id}",
+    "RelativePath": "api/v1/Brand/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -111,9 +111,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.BrandController",
+    "ContainingType": "WebAPI.Controllers.V1.BrandController",
     "Method": "Update",
-    "RelativePath": "api/Brand/{id}",
+    "RelativePath": "api/v1/Brand/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -132,9 +132,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.BrandController",
+    "ContainingType": "WebAPI.Controllers.V1.BrandController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Brand/{id}",
+    "RelativePath": "api/v1/Brand/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -148,9 +148,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.CategoryController",
     "Method": "Create",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/v1/Category",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -164,9 +164,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.CategoryController",
     "Method": "Delete",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/v1/Category",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -180,9 +180,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.CategoryController",
     "Method": "Update",
-    "RelativePath": "api/Category/{id}",
+    "RelativePath": "api/v1/Category/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -201,9 +201,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.CategoryController",
     "Method": "GetByLang",
-    "RelativePath": "api/Category/{id}",
+    "RelativePath": "api/v1/Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -217,9 +217,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.CategoryController",
     "Method": "GetAll",
-    "RelativePath": "api/Category/GetAll",
+    "RelativePath": "api/v1/Category/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -233,9 +233,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.CategoryController",
     "Method": "UpdateByLang",
-    "RelativePath": "api/Category/UpdateByLang",
+    "RelativePath": "api/v1/Category/UpdateByLang",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -259,9 +259,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.ProductController",
+    "ContainingType": "WebAPI.Controllers.V1.ProductController",
     "Method": "Create",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/v1/Product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -275,9 +275,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.ProductController",
+    "ContainingType": "WebAPI.Controllers.V1.ProductController",
     "Method": "GetById",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/v1/Product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -291,9 +291,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.ProductController",
+    "ContainingType": "WebAPI.Controllers.V1.ProductController",
     "Method": "Update",
-    "RelativePath": "api/Product/{id}/Update",
+    "RelativePath": "api/v1/Product/{id}/Update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -312,9 +312,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "AssignRoleToUser",
-    "RelativePath": "api/Role/AssignRoleToUser/{userId}",
+    "RelativePath": "api/v1/Role/AssignRoleToUser/{userId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -333,9 +333,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "Create",
-    "RelativePath": "api/Role/Create",
+    "RelativePath": "api/v1/Role/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -349,9 +349,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "Delete",
-    "RelativePath": "api/Role/Delete/{roleId}",
+    "RelativePath": "api/v1/Role/Delete/{roleId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -365,9 +365,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "GetAllRoles",
-    "RelativePath": "api/Role/GetAllRoles",
+    "RelativePath": "api/v1/Role/GetAllRoles",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -375,9 +375,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "GetRoleById",
-    "RelativePath": "api/Role/GetRoleById/{roleId}",
+    "RelativePath": "api/v1/Role/GetRoleById/{roleId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -391,9 +391,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "RemoveRoleFromUser",
-    "RelativePath": "api/Role/RemoveRoleFromUser/{userId})",
+    "RelativePath": "api/v1/Role/RemoveRoleFromUser/{userId})",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -412,9 +412,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.RoleController",
+    "ContainingType": "WebAPI.Controllers.V1.RoleController",
     "Method": "Update",
-    "RelativePath": "api/Role/Update",
+    "RelativePath": "api/v1/Role/Update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -428,9 +428,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.SubCategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.SubCategoryController",
     "Method": "Create",
-    "RelativePath": "api/SubCategory",
+    "RelativePath": "api/v1/SubCategory",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -444,9 +444,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.SubCategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.SubCategoryController",
     "Method": "Update",
-    "RelativePath": "api/SubCategory/{id}",
+    "RelativePath": "api/v1/SubCategory/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -465,9 +465,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.SubCategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.SubCategoryController",
     "Method": "Delete",
-    "RelativePath": "api/SubCategory/{id}",
+    "RelativePath": "api/v1/SubCategory/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -481,9 +481,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.SubCategoryController",
+    "ContainingType": "WebAPI.Controllers.V1.SubCategoryController",
     "Method": "Get",
-    "RelativePath": "api/SubCategory/{id}",
+    "RelativePath": "api/v1/SubCategory/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -497,9 +497,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebAPI.Controllers.UploadController",
+    "ContainingType": "WebAPI.Controllers.V1.UploadController",
     "Method": "Upload",
-    "RelativePath": "api/Upload",
+    "RelativePath": "api/v1/Upload",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

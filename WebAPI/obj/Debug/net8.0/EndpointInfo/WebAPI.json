@@ -1,12 +1,11 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "WebApi",
-    "description": "Identity Service API swagger client.",
-    "version": "v1"
+    "title": " WebApi 1.0",
+    "version": "1.0"
   },
   "paths": {
-    "/api/Auth/Register": {
+    "/api/v1/Auth/Register": {
       "post": {
         "tags": [
           "Auth"
@@ -37,7 +36,7 @@
         }
       }
     },
-    "/api/Auth/Login": {
+    "/api/v1/Auth/Login": {
       "post": {
         "tags": [
           "Auth"
@@ -68,7 +67,7 @@
         }
       }
     },
-    "/api/Auth/refreshToken": {
+    "/api/v1/Auth/refreshToken": {
       "post": {
         "tags": [
           "Auth"
@@ -99,7 +98,7 @@
         }
       }
     },
-    "/api/Auth/LogOut": {
+    "/api/v1/Auth/LogOut": {
       "put": {
         "tags": [
           "Auth"
@@ -111,7 +110,7 @@
         }
       }
     },
-    "/api/Auth/EmailConfirm": {
+    "/api/v1/Auth/EmailConfirm": {
       "put": {
         "tags": [
           "Auth"
@@ -139,7 +138,7 @@
         }
       }
     },
-    "/api/Brand": {
+    "/api/v1/Brand": {
       "post": {
         "tags": [
           "Brand"
@@ -170,7 +169,7 @@
         }
       }
     },
-    "/api/Brand/{id}": {
+    "/api/v1/Brand/{id}": {
       "get": {
         "tags": [
           "Brand"
@@ -254,7 +253,7 @@
         }
       }
     },
-    "/api/Category": {
+    "/api/v1/Category": {
       "post": {
         "tags": [
           "Category"
@@ -314,7 +313,7 @@
         }
       }
     },
-    "/api/Category/{id}": {
+    "/api/v1/Category/{id}": {
       "put": {
         "tags": [
           "Category"
@@ -386,7 +385,7 @@
         }
       }
     },
-    "/api/Category/UpdateByLang": {
+    "/api/v1/Category/UpdateByLang": {
       "put": {
         "tags": [
           "Category"
@@ -434,7 +433,7 @@
         }
       }
     },
-    "/api/Category/GetAll": {
+    "/api/v1/Category/GetAll": {
       "get": {
         "tags": [
           "Category"
@@ -456,7 +455,7 @@
         }
       }
     },
-    "/api/Product": {
+    "/api/v1/Product": {
       "post": {
         "tags": [
           "Product"
@@ -487,7 +486,7 @@
         }
       }
     },
-    "/api/Product/{id}/Update": {
+    "/api/v1/Product/{id}/Update": {
       "put": {
         "tags": [
           "Product"
@@ -529,7 +528,7 @@
         }
       }
     },
-    "/api/Product/{id}": {
+    "/api/v1/Product/{id}": {
       "get": {
         "tags": [
           "Product"
@@ -552,7 +551,7 @@
         }
       }
     },
-    "/api/Role/Create": {
+    "/api/v1/Role/Create": {
       "post": {
         "tags": [
           "Role"
@@ -583,7 +582,7 @@
         }
       }
     },
-    "/api/Role/Delete/{roleId}": {
+    "/api/v1/Role/Delete/{roleId}": {
       "delete": {
         "tags": [
           "Role"
@@ -605,7 +604,7 @@
         }
       }
     },
-    "/api/Role/Update": {
+    "/api/v1/Role/Update": {
       "put": {
         "tags": [
           "Role"
@@ -636,7 +635,7 @@
         }
       }
     },
-    "/api/Role/AssignRoleToUser/{userId}": {
+    "/api/v1/Role/AssignRoleToUser/{userId}": {
       "post": {
         "tags": [
           "Role"
@@ -677,7 +676,7 @@
         }
       }
     },
-    "/api/Role/RemoveRoleFromUser/{userId})": {
+    "/api/v1/Role/RemoveRoleFromUser/{userId})": {
       "post": {
         "tags": [
           "Role"
@@ -718,7 +717,7 @@
         }
       }
     },
-    "/api/Role/GetAllRoles": {
+    "/api/v1/Role/GetAllRoles": {
       "get": {
         "tags": [
           "Role"
@@ -730,7 +729,7 @@
         }
       }
     },
-    "/api/Role/GetRoleById/{roleId}": {
+    "/api/v1/Role/GetRoleById/{roleId}": {
       "get": {
         "tags": [
           "Role"
@@ -752,7 +751,7 @@
         }
       }
     },
-    "/api/SubCategory": {
+    "/api/v1/SubCategory": {
       "post": {
         "tags": [
           "SubCategory"
@@ -783,7 +782,7 @@
         }
       }
     },
-    "/api/SubCategory/{id}": {
+    "/api/v1/SubCategory/{id}": {
       "put": {
         "tags": [
           "SubCategory"
@@ -867,7 +866,7 @@
         }
       }
     },
-    "/api/Upload": {
+    "/api/v1/Upload": {
       "post": {
         "tags": [
           "Upload"

@@ -1,10 +1,12 @@
-﻿using Business.Abstract;
+﻿using Asp.Versioning;
+using Business.Abstract;
 using Entities.DTOs.SubCategoryDTOs;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{v:apiVersion}/[controller]")]
     [ApiController]
     public class SubCategoryController : ControllerBase
     {
@@ -15,6 +17,7 @@ namespace WebAPI.Controllers
             _subCategoryService = subCategoryService;
         }
         [HttpPost]
+        [MapToApiVersion("1.0")]
         public IActionResult Create(AddSubCategoryDTO model)
         {
             var result=_subCategoryService.Create(model);
@@ -23,6 +26,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpPut("{id}")]
+        [MapToApiVersion("1.0")]
         public IActionResult Update([FromRoute]Guid id,UpdateSubCategoryDTO model)
         {
             var result = _subCategoryService.Update(id,model);
@@ -31,6 +35,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpDelete("{id}")]
+        [MapToApiVersion("1.0")]
         public IActionResult Delete([FromRoute]Guid id)
         {
             var result=_subCategoryService.Delete(id);
@@ -39,6 +44,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpGet("{id}")]
+        [MapToApiVersion("1.0")]
         public IActionResult Get([FromRoute]Guid id)
         {
             var result= _subCategoryService.Get(id);
