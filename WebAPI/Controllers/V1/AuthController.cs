@@ -19,7 +19,7 @@ namespace WebAPI.Controllers.V1
             _authService = authService;
         }
         [HttpPost("[action]")]
-        //[Authorize(Roles ="Admin")]
+        //[Authorize(Roles = "Admin")]
         [MapToApiVersion("1.0")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
@@ -67,7 +67,32 @@ namespace WebAPI.Controllers.V1
             if (result.Success)
                 return Ok(result);
             return BadRequest(result); 
+
         }
-       
+        //[Authorize(Roles = "Admin")]
+        [Authorize]
+        [HttpDelete("[action]/{id}")]
+        public async Task<IActionResult> HardDeleteUser(string id)
+        {
+            var result = await _authService.HardDeleteUser(id);
+            if (!result.Success)
+            {
+                return BadRequest(new { message = result.Message });
+            }
+            return Ok(new { message = "User and roles deleted successfully." });
+        }
+        [Authorize(Roles = "Admin")]
+
+        [HttpPut("[action]/{id}")]
+        public async Task<IActionResult> SoftDeleteUser(string id)
+        {
+            var result = await _authService.SoftDeleteUser(id);
+            if (!result.Success)
+            {
+                return BadRequest(new { message = result.Message });
+            }
+            return Ok(new { message = "User deactivated successfully." });
+        }
+
     }
 }

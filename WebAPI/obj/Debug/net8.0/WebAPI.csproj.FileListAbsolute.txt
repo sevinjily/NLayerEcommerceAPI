@@ -535,8 +535,8 @@ C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\AutoM
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\WebAPI.staticwebassets.endpoints.json
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\Asp.Versioning.Http.dll
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\Asus\OneDrive\İş masası\ArchiECommerce\WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

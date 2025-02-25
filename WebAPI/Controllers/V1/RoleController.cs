@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers.V1
 {
-    [Authorize(Roles= "Admin")]
+    [Authorize(Roles = "Admin")]
     [ApiVersion("1.0")]
     [Route("api/v{v:apiVersion}/[controller]")]
     [ApiController]

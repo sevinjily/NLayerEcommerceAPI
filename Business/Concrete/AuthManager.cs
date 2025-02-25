@@ -7,22 +7,19 @@ using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete.ErrorResults;
 using Core.Utilities.Results.Concrete.SuccesResults;
 using Core.Utilities.Security.Abstract;
-using Entities.Common;
 using Entities.DTOs.AuthDTOs;
 using Microsoft.AspNetCore.Identity;
 using Serilog;
 using System.Net;
-using System.Threading.Tasks;
-using static System.Net.WebRequestMethods;
 
 namespace Business.Concrete
 {
     public class AuthManager : IAuthService
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly SignInManager<AppUser> _signInManager;     
+        private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenService _tokenService;
-        private readonly IMessageService _messageService;   
+        private readonly IMessageService _messageService;
         public AuthManager(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenService tokenService, IMessageService messageService)
         {
             _userManager = userManager;
@@ -44,7 +41,7 @@ namespace Business.Concrete
 
             if (findUser.EmailConfirmed == false)
             {
-                return new ErrorDataResult<Token>(message: "User not confirmed",HttpStatusCode.BadRequest);
+                return new ErrorDataResult<Token>(message: "User not confirmed", HttpStatusCode.BadRequest);
             }
 
             var result = await _signInManager.CheckPasswordSignInAsync(findUser, loginDTO.Password, false);
@@ -52,7 +49,7 @@ namespace Business.Concrete
             if (result.Succeeded)
             {
                 Token token = await _tokenService.CreateAccessToken(findUser, roles: userRoles.ToList());
-               var response = await UpdateRefreshToken(token.RefreshToken,findUser);
+                var response = await UpdateRefreshToken(token.RefreshToken, findUser);
                 return new SuccessDataResult<Token>(data: token, statusCode: HttpStatusCode.OK, message: response.Message);
             }
             else
@@ -65,13 +62,13 @@ namespace Business.Concrete
 
         public async Task<IResult> LogOut(string userId)
         {
-           var user=await _userManager.FindByIdAsync(userId);
-            if(user is not null)
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user is not null)
             {
-                    user.RefreshToken = null;
-                user.RefreshTokenExpiredDate=null;
-                var result=await _userManager.UpdateAsync(user);
-                if(result.Succeeded)
+                user.RefreshToken = null;
+                user.RefreshTokenExpiredDate = null;
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
                 {
                     return new SuccessResult(HttpStatusCode.OK);
                 }
@@ -83,7 +80,7 @@ namespace Business.Concrete
                         response += error.Description + ".";
                     }
                     return new ErrorResult(response, HttpStatusCode.BadRequest);
-                }   
+                }
             }
             return new ErrorResult(HttpStatusCode.NotFound);
         }
@@ -102,7 +99,7 @@ namespace Business.Concrete
             }
             else
             {
-                return new ErrorDataResult<Token>(statusCode: HttpStatusCode.BadRequest, message:AuthMessage.UserNotFound);
+                return new ErrorDataResult<Token>(statusCode: HttpStatusCode.BadRequest, message: AuthMessage.UserNotFound);
             }
         }
         private string GenerateOtp()
@@ -120,11 +117,11 @@ namespace Business.Concrete
         {
 
             var validator = new RegisterValidation();
-            var validationResult=validator.Validate(model);
+            var validationResult = validator.Validate(model);
             if (!validationResult.IsValid)
             {
                 Log.Error(validationResult.ToString());
-                return new ErrorResult(message: validationResult.ToString(),HttpStatusCode.BadRequest);
+                return new ErrorResult(message: validationResult.ToString(), HttpStatusCode.BadRequest);
             }
 
             AppUser newUser = new()
@@ -135,13 +132,13 @@ namespace Business.Concrete
                 UserName = model.UserName,
                 OTP = GenerateOtp(),
                 ExpiredDate = DateTime.Now.AddMinutes(3),
-                EmailConfirmed=false
+                EmailConfirmed = false
 
             };
             var result = await _userManager.CreateAsync(newUser, model.Password);
             if (result.Succeeded)
             {
-               await _messageService.SendMessage(newUser.Email, "Welcome", newUser.OTP);
+                await _messageService.SendMessage(newUser.Email, "Welcome", newUser.OTP);
                 return new SuccessResult(System.Net.HttpStatusCode.Created);
             }
             else
@@ -149,7 +146,7 @@ namespace Business.Concrete
                 string response = string.Empty;
                 foreach (var error in result.Errors)
                 {
-                    response += error.Description+".";
+                    response += error.Description + ".";
 
                 }
                 return new ErrorResult(response, System.Net.HttpStatusCode.BadRequest);
@@ -163,7 +160,7 @@ namespace Business.Concrete
 
         public async Task<IResult> UserEmailConfirm(string email, string otp)
         {
-            var findUser = _userManager.Users.FirstOrDefault(x=>x.Email==email);
+            var findUser = _userManager.Users.FirstOrDefault(x => x.Email == email);
 
             if (findUser == null)
                 return new ErrorResult("User not found.", HttpStatusCode.NotFound);
@@ -186,7 +183,7 @@ namespace Business.Concrete
                 await _userManager.UpdateAsync(findUser);
 
 
-                await _messageService.SendMessage(findUser.Email,"Welcome", findUser.OTP);
+                await _messageService.SendMessage(findUser.Email, "Welcome", findUser.OTP);
                 return new ErrorResult("OTP expired. A new OTP has been sent.", HttpStatusCode.BadRequest);
             }
 
@@ -201,16 +198,16 @@ namespace Business.Concrete
             {
 
                 string newOtp = GenerateNewOTP();
-            findUser.OTP = newOtp;
-            findUser.ExpiredDate = DateTime.Now.AddMinutes(5);
+                findUser.OTP = newOtp;
+                findUser.ExpiredDate = DateTime.Now.AddMinutes(5);
                 findUser.FailedAttempts++; // Yanlış OTP daxil edilibsə, say artırılır
                 await _userManager.UpdateAsync(findUser);
 
-                await  _messageService.SendMessage(findUser.Email, "Welcome", newOtp);
+                await _messageService.SendMessage(findUser.Email, "Welcome", newOtp);
                 return new ErrorResult("Too many failed attempts. A new OTP has been sent.", HttpStatusCode.Forbidden);
             }
 
-           
+
 
             if (findUser.OTP.Length < 6)
                 return new ErrorResult("Invalid OTP format.", HttpStatusCode.BadRequest);
@@ -225,14 +222,14 @@ namespace Business.Concrete
                 return new SuccessResult(HttpStatusCode.OK);
             }
 
-                findUser.FailedAttempts++; // Yanlış OTP daxil edilibsə, say artırılır
+            findUser.FailedAttempts++; // Yanlış OTP daxil edilibsə, say artırılır
 
             await _userManager.UpdateAsync(findUser);
 
             return new ErrorResult("Invalid OTP or expired.", HttpStatusCode.BadRequest);
 
         }
-    
+
 
         public async Task<IDataResult<string>> UpdateRefreshToken(string refreshToken, AppUser appUser)
         {
@@ -261,6 +258,69 @@ namespace Business.Concrete
                 return new ErrorDataResult<string>(HttpStatusCode.NotFound);
             }
         }
-       
+
+        public async Task<IResult> HardDeleteUser(string id)
+        {
+
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+                   return new ErrorResult("User not found", HttpStatusCode.NotFound);
+            
+
+            // İstifadəçinin rollarını gətir
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            if (userRoles.Any())
+            {
+                // İstifadəçini bütün rollardan çıxar
+                var removeRolesResult = await _userManager.RemoveFromRolesAsync(user, userRoles);
+                if (!removeRolesResult.Succeeded)
+                {
+                    string response = string.Join(" ", removeRolesResult.Errors.Select(e => e.Description));
+                    return new ErrorResult($"Failed to remove roles: {response}", HttpStatusCode.BadRequest);
+                }
+            
+     
+
+            // İstifadəçini tam sil
+            var deleteResult = await _userManager.DeleteAsync(user);
+            if (!deleteResult.Succeeded)
+            {
+                string response = string.Join(" ", deleteResult.Errors.Select(e => e.Description));
+                return new ErrorResult($"Failed to delete user: {response}", HttpStatusCode.BadRequest);
+            }
+
+        }
+            return new SuccessResult("User and associated roles deleted successfully", HttpStatusCode.OK);
+
+
+
+        }
+
+        public async Task<IResult> SoftDeleteUser(string id)
+        {
+
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+                return new ErrorResult("User not found.", HttpStatusCode.NotFound);
+
+
+            // Hesabı deaktiv edirik
+            user.LockoutEnd = DateTime.MaxValue;
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+                return new SuccessResult("User has been disabled.", HttpStatusCode.OK);
+
+            else
+            {
+                string response = string.Join(" ", result.Errors.Select(e => e.Description));
+                return new ErrorResult(response, HttpStatusCode.BadRequest);
+            }
+        }
     }
 }
+        
+
+
+

@@ -19,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Konfiqurasiya sistemin? appsettings.json faylını ?lav? edir.
 // - "optional: false": Fayl mütl?q mövcud olmalıdır. ?ks halda, t?tbiq x?ta ver?c?k.
 // - "reloadOnChange: true": Faylın m?zmununda d?yişiklik olarsa, sistem yenil?nmiş parametrl?ri avtomatik yükl?y?c?k.
-builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+//builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 
 // Add services to the container.
@@ -80,7 +80,7 @@ builder.Services.AddSwaggerGen(x =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Example: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\\"
+        Description = "Example: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\\"  
     });
     x.AddSecurityRequirement(new OpenApiSecurityRequirement()
     {
@@ -118,12 +118,12 @@ builder.Services.AddAuthentication(auth =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"])),
         LifetimeValidator = (notBefore, expires, securityToken, validationParameters) =>
             expires != null ? expires > DateTime.UtcNow : false,
-        //ClockSkew=TimeSpan.Zero,
+        ClockSkew = TimeSpan.Zero,
         NameClaimType = ClaimTypes.Email
     };
 });
 //builder.Services.AddSwaggerGen();
-
+    
 //builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
 FluentValidationMvcExtensions.AddFluentValidation(builder.Services.AddControllersWithViews(), x =>
 {
