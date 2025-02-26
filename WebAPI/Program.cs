@@ -14,6 +14,7 @@ using WebAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration.AddUserSecrets<Program>();
 
 
 // Konfiqurasiya sistemin? appsettings.json faylını ?lav? edir.
@@ -113,12 +114,13 @@ builder.Services.AddAuthentication(auth =>
         ValidateIssuer = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
+
         ValidAudience = builder.Configuration["Token:Audience"],
         ValidIssuer = builder.Configuration["Token:Issuer"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"])),
         LifetimeValidator = (notBefore, expires, securityToken, validationParameters) =>
             expires != null ? expires > DateTime.UtcNow : false,
-        ClockSkew = TimeSpan.Zero,
+        //ClockSkew = TimeSpan.Zero,
         NameClaimType = ClaimTypes.Email
     };
 });
@@ -139,8 +141,9 @@ builder.Host.UseSerilog((context, loggerInformation) =>
 });
 
 
-builder.Services.AddTransient<LocalizationMiddleware>();
 builder.Services.AddTransient<GlobalHandlingExceptionMiddleware>();
+builder.Services.AddTransient<LocalizationMiddleware>();
+
 
 var app = builder.Build();  
 
@@ -167,8 +170,8 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseMiddleware<LocalizationMiddleware>();
 app.UseMiddleware<GlobalHandlingExceptionMiddleware>();
+app.UseMiddleware<LocalizationMiddleware>();
 
 app.MapControllers();
 

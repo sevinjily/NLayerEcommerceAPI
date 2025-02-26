@@ -27,6 +27,12 @@ namespace Business.Concrete
             return new SuccessResult(System.Net.HttpStatusCode.Created);
         }
 
+        public async Task<IResult> DeleteAsync(Guid id)
+        {
+           await _productDAL.DeleteProductAsync(id);
+           return  new SuccessResult(System.Net.HttpStatusCode.OK);
+        }
+
         public IDataResult<GetProductDTO> GetById(Guid id, string LangCode)
         {
            var data = _productDAL.GetProductAsync(id, LangCode);

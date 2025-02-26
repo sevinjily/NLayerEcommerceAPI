@@ -17,18 +17,18 @@ namespace WebAPI.Controllers.V1
         {
             _brandService = brandService;
         }
-        [HttpPost]
+        [HttpPost("[action]")]
         [MapToApiVersion("1.0")]
-        public IActionResult Create( AddBrandDTO model)
+        public IActionResult Create(AddBrandDTO model)
         {
             var result = _brandService.Create(model);
             if (result.Success)
-            
+
                 return Ok(result);
-            
+
             return BadRequest(result);
         }
-        [HttpGet("{id}")]
+        [HttpGet("[action]/{id}")]
         [MapToApiVersion("1.0")]
         public IActionResult Get(Guid id) {
             var result = _brandService.GetBrands(id);
@@ -36,7 +36,7 @@ namespace WebAPI.Controllers.V1
                 return Ok(result);
             return BadRequest(result);
         }
-        [HttpPut("{id}")]
+        [HttpPut("[action]/{id}")]
         [MapToApiVersion("1.0")]
         public IActionResult Update(Guid id, UpdateBrandDTO model)
         {
@@ -46,11 +46,19 @@ namespace WebAPI.Controllers.V1
                 return Ok(result);
             return BadRequest(result);
         }
-        [HttpPatch("{id}")]
+        [HttpPatch("[action]/{id}")]
         [MapToApiVersion("1.0")]
         public IActionResult SoftDelete(Guid id)
         {
             var result = _brandService.SoftDelete(id);
+            if (result.Success)
+                return Ok(result);
+            return BadRequest(result);
+        }
+        [HttpDelete("[action]/{id}")]
+        public IActionResult HardDelete(Guid id)
+        {
+            var result = _brandService.HardDelete(id);
             if (result.Success)
                 return Ok(result);
             return BadRequest(result);

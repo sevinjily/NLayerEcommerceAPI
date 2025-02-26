@@ -48,5 +48,14 @@ namespace WebAPI.Controllers.V1
                 return Ok(result);
             return BadRequest(result);
         }
+        [HttpDelete("[action]/{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result =await _productService.DeleteAsync(id);
+            if (result.Success)
+                return Ok(result);
+            return BadRequest(result);
+        }
+
     }
 }

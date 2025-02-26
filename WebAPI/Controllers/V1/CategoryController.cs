@@ -60,7 +60,7 @@ namespace WebAPI.Controllers.V1
         }
         [HttpGet("[action]")]
         [MapToApiVersion("1.0")]
-        public IActionResult GetAll(Guid id)
+        public IActionResult GetAllLang(Guid id)
         {
          
             var result=_categoryService.GetAllLanguages(id);

@@ -182,7 +182,7 @@
         }
       }
     },
-    "/api/v1/Brand": {
+    "/api/v1/Brand/Create": {
       "post": {
         "tags": [
           "Brand"
@@ -213,7 +213,7 @@
         }
       }
     },
-    "/api/v1/Brand/{id}": {
+    "/api/v1/Brand/Get/{id}": {
       "get": {
         "tags": [
           "Brand"
@@ -234,7 +234,9 @@
             "description": "Success"
           }
         }
-      },
+      }
+    },
+    "/api/v1/Brand/Update/{id}": {
       "put": {
         "tags": [
           "Brand"
@@ -274,8 +276,33 @@
             "description": "Success"
           }
         }
-      },
+      }
+    },
+    "/api/v1/Brand/SoftDelete/{id}": {
       "patch": {
+        "tags": [
+          "Brand"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/Brand/HardDelete/{id}": {
+      "delete": {
         "tags": [
           "Brand"
         ],
@@ -477,7 +504,7 @@
         }
       }
     },
-    "/api/v1/Category/GetAll": {
+    "/api/v1/Category/GetAllLang": {
       "get": {
         "tags": [
           "Category"
@@ -574,6 +601,29 @@
     },
     "/api/v1/Product/{id}": {
       "get": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/Product/Delete/{id}": {
+      "delete": {
         "tags": [
           "Product"
         ],

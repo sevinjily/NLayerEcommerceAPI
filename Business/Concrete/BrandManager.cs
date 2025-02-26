@@ -6,11 +6,6 @@ using Core.Utilities.Results.Concrete.SuccesResults;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs.BrandDTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
@@ -62,6 +57,15 @@ namespace Business.Concrete
             var map  = _mapper.Map<Brand>(model);
             _brandDAL.Update(map);
             return new SuccessResult( System.Net.HttpStatusCode.OK);
+        }
+        public IResult HardDelete(Guid id)
+        {
+            var findBrand = _brandDAL.Get(x => x.Id == id);
+            if (findBrand == null)
+                return new ErrorResult(System.Net.HttpStatusCode.NotFound);
+
+            _brandDAL.Delete(findBrand);
+            return new SuccessResult(System.Net.HttpStatusCode.OK);
         }
     }
 }

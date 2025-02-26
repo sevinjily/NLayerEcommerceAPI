@@ -1,7 +1,6 @@
 ﻿using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
 using Entities.Concrete;
-using Entities.DTOs.CategoryDTOs;
 using Entities.DTOs.ProductDTOs;
 using Microsoft.EntityFrameworkCore;
 
@@ -97,6 +96,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using var context = new AppDbContext();
             var data = context.Products
+                .Where(x => x.Id == id && x.IsDeleted == false)
                 .Include(x => x.ProductLanguages)
                 .Include(x => x.ProductSubCategories)
                 .ThenInclude(x => x.SubCategory)
@@ -127,6 +127,17 @@ namespace DataAccess.Concrete.EntityFramework
                 return getProductDTO;
             }
                 return null;
+        }
+
+        public async Task DeleteProductAsync(Guid id)
+        {
+            await using var context = new AppDbContext();
+            var product = await context.Products.FindAsync(id);
+            if (product != null)
+            {
+                product.IsDeleted = true; // Məhsulu aktivdən çıxarırıq
+                await context.SaveChangesAsync();
+            }
         }
 
         public async Task UpdateProductAsync(Guid id, UpdateProductDTO model)   
