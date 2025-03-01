@@ -19,7 +19,7 @@ namespace WebAPI.Controllers.V1
             _authService = authService;
         }
         [HttpPost("[action]")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [MapToApiVersion("1.0")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
@@ -48,7 +48,7 @@ namespace WebAPI.Controllers.V1
                 return Ok(result);
             return BadRequest(result);
         }
-        [Authorize]
+        //[Authorize]
         [HttpPut("[action]")]
         [MapToApiVersion("1.0")]
         public async Task<IActionResult> LogOut()
@@ -69,7 +69,7 @@ namespace WebAPI.Controllers.V1
             return BadRequest(result); 
 
         }
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [Authorize]
         [HttpDelete("[action]/{id}")]
         public async Task<IActionResult> HardDeleteUser(string id)
