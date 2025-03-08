@@ -20,7 +20,7 @@ builder.Configuration.AddUserSecrets<Program>();
 // Konfiqurasiya sistemin? appsettings.json faylını ?lav? edir.
 // - "optional: false": Fayl mütl?q mövcud olmalıdır. ?ks halda, t?tbiq x?ta ver?c?k.
 // - "reloadOnChange: true": Faylın m?zmununda d?yişiklik olarsa, sistem yenil?nmiş parametrl?ri avtomatik yükl?y?c?k.
-//builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 
 // Add services to the container.

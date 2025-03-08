@@ -48,9 +48,9 @@ namespace WebAPI.Controllers.V1
                 return Ok(result);
             return BadRequest(result);
         }
-        //[Authorize]
         [HttpPut("[action]")]
         [MapToApiVersion("1.0")]
+        //[Authorize]
         public async Task<IActionResult> LogOut()
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -59,6 +59,7 @@ namespace WebAPI.Controllers.V1
                 return Ok(result);
             return BadRequest(result);
         }
+        
         [HttpPut("[action]")]
         [MapToApiVersion("1.0")]
         public async Task<IActionResult> EmailConfirm(string email,string otp)
